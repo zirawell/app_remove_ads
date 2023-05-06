@@ -3,7 +3,7 @@ host, pglstatp-toutiao.com, reject
 
 # 云闪付
 host, ads.95516.com, reject
-host, tongzhi.95516.com, reject
+#host, tongzhi.95516.com, reject
 
 # 大众点评
 host, dpmtpush.dianping.com, reject
