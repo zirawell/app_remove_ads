@@ -1,14 +1,17 @@
 # app_remove_ads
 For a no Ads world for iOS
 
-| App | Version | Progress | Status |
-|---|:--|:--|---|
-| 薄荷健康 | 10.2.0 | 完美去除 | 维护中 |
-| 盯盯拍 | 7.2.7 | 完美去除 | 维护中 |
-| 山姆会员商店 | 5.0.65 | 开屏去除 | 维护中 |
-| 云闪付 | 9.2.3 | 开屏去除 | 维护中 |
-| 买单吧 | 6.0.1 | 完美去除 | 维护中 |
-| 米家 | 7.12.203 | 完美去除 | 维护中 |
-| 小鹏汽车 | 4.15.0 | 测试中 | 测试中 |
-| 大众点评 | 10.67.1 | 部分去除 | 不再维护 |
+## 特别鸣谢
+
+- [@app2smile](https://github.com/app2smile)
+- [@blackmatrix7](https://github.com/blackmatrix7)
+- [@DivineEngine](https://github.com/DivineEngine)
+- [@KOP-XIAO](https://github.com/KOP-XIAO)
+- [@NobyDa](https://github.com/NobyDa)
+- [@Orz-3](https://github.com/Orz-3)
+- [@fmz200](https://github.com/fmz200)
+
+### 访问量统计
+
+![Visitor Count](https://profile-counter.glitch.me/zirawell/count.svg)
 
