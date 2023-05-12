@@ -1,8 +1,27 @@
+# 买单吧
+host-keyword, c-hzgt2.getui.com, reject
+# 米家
+HOST, sdkconfig.ad.xiaomi.com, REJECT
 # 盯盯拍
 host, pglstatp-toutiao.com, reject
+# 美团
+HOST, flowplus.meituan.net, reject
+HOST-SUFFIX, analytics.meituan.net, reject
+HOST-SUFFIX, meituan.xn--io0a7i, reject
+HOST-SUFFIX, meituan.yoga, reject
+HOST-SUFFIX, meituangov.cn, reject
+HOST-SUFFIX, report.meituan.com, reject
+HOST-SUFFIX, wmlog.meituan.com, reject
+# 光大银行阳光惠生活
+host-keyword, talk.bz.getui.com, reject
 # 小鹏汽车
 host, api-adservices.apple.com, reject
 host, api.weibo.com, reject
+# 中国电信
+HOST,ad.21cn.com, reject
+HOST,ad.k.21cn.com, reject
+HOST,admarket.21cn.com, reject
+HOST,adshows.21cn.com, reject
 # 大众点评
 host, dpmtpush.dianping.com, reject
 host, meituan.net, reject
@@ -11,5 +30,9 @@ ip-cidr, 101.32.16.204/32, reject
 ip-cidr, 203.76.217.244/32, reject
 ip-cidr, 119.29.126.137/32, reject
 # 云闪付
-host, ads.95516.com, reject
-#host, tongzhi.95516.com, reject
+HOST, ads.95516.com, reject
+HOST, cm-10-138.getui.com, reject
+HOST, sdk.open.talk.getui.net, reject
+HOST, sdk-conf.getui.com, reject
+HOST, switch.cup.com.cn, reject
+HOST, tysdk.95516.com, reject
