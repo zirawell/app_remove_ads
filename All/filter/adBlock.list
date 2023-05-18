@@ -1,27 +1,30 @@
 # 买单吧
 host-keyword, c-hzgt2.getui.com, reject
 # 米家
-HOST, sdkconfig.ad.xiaomi.com, REJECT
+host, sdkconfig.ad.xiaomi.com, REJECT
 # 盯盯拍
 host, pglstatp-toutiao.com, reject
 # 美团
-HOST, flowplus.meituan.net, reject
-HOST-SUFFIX, analytics.meituan.net, reject
-HOST-SUFFIX, meituan.xn--io0a7i, reject
-HOST-SUFFIX, meituan.yoga, reject
-HOST-SUFFIX, meituangov.cn, reject
-HOST-SUFFIX, report.meituan.com, reject
-HOST-SUFFIX, wmlog.meituan.com, reject
+host, flowplus.meituan.net, reject
+host-suffix, analytics.meituan.net, reject
+host-suffix, meituan.xn--io0a7i, reject
+host-suffix, meituan.yoga, reject
+host-suffix, meituangov.cn, reject
+host-suffix, report.meituan.com, reject
+host-suffix, wmlog.meituan.com, reject
 # 光大银行阳光惠生活
 host-keyword, talk.bz.getui.com, reject
 # 小鹏汽车
 host, api-adservices.apple.com, reject
 host, api.weibo.com, reject
+# 招商银行
+host, mbads.paas.cmbchina.com, reject
+host, yl.zh.cmbchina.com, reject
 # 中国电信
-HOST,ad.21cn.com, reject
-HOST,ad.k.21cn.com, reject
-HOST,admarket.21cn.com, reject
-HOST,adshows.21cn.com, reject
+host,ad.21cn.com, reject
+host,ad.k.21cn.com, reject
+host,admarket.21cn.com, reject
+host,adshows.21cn.com, reject
 # 大众点评
 host, dpmtpush.dianping.com, reject
 host, meituan.net, reject
