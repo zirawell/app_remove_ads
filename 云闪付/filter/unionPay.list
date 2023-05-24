@@ -1,7 +1,5 @@
 # 云闪付
-HOST, ads.95516.com, reject
-HOST, cm-10-138.getui.com, reject
-HOST, sdk.open.talk.getui.net, reject
-HOST, sdk-conf.getui.com, reject
-HOST, switch.cup.com.cn, reject
-HOST, tysdk.95516.com, reject
+host, ads.95516.com, reject
+host, analytics.95516.com, reject
+host, youhui.95516.com, reject
+host, tongzhi.95516.com, reject
