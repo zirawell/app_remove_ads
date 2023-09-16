@@ -1,5 +1,6 @@
 # 买单吧
 host-keyword, c-hzgt2.getui.com, reject
+host-suffix, track.bankcomm.com, reject
 # 米家
 host, sdkconfig.ad.xiaomi.com, REJECT
 # 盯盯拍
