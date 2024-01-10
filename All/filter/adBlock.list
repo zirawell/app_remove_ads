@@ -2,7 +2,7 @@
 host-keyword, c-hzgt2.getui.com, reject
 host-suffix, track.bankcomm.com, reject
 # 米家
-host, sdkconfig.ad.xiaomi.com, REJECT
+host, sdkconfig.ad.xiaomi.com, reject
 # 盯盯拍
 host, pglstatp-toutiao.com, reject
 # 美团
@@ -28,6 +28,14 @@ host,admarket.21cn.com, reject
 host,adshows.21cn.com, reject
 # 广发银行-发现精彩
 host, union.chinalifeonline.com.cn, reject
+# 宝宝树
+host, m.meitun.com, reject
+host, adx.babytree.com, reject 
+host, adx-backend.babytree.com, reject 
+host, ads.babytree.com, reject 
+host, bbtads.babytree.com, reject 
+host, tracking.babytree.com, reject 
+host, mobads-pre-config.cdn.bcebos.com, reject 
 # 大众点评
 host, dpmtpush.dianping.com, reject
 ip-cidr, 103.37.155.0/8, reject

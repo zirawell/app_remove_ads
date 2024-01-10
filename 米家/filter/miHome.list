@@ -1,2 +1,2 @@
 # 米家
-host, sdkconfig.ad.xiaomi.com, REJECT
+host, sdkconfig.ad.xiaomi.com, reject
