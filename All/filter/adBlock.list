@@ -18,6 +18,8 @@ host-keyword, talk.bz.getui.com, reject
 # 小鹏汽车
 host, api-adservices.apple.com, reject
 host, api.weibo.com, reject
+# 同程旅行
+host, vstlog.17usoft.com, reject
 # 招商银行
 host, mbads.paas.cmbchina.com, reject
 host, yl.zh.cmbchina.com, reject
