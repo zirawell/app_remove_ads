@@ -6,7 +6,7 @@ switch (isResponse) {
   case /^http:\/\/go\.babytree\.com\/go_pregnancy\/api\/app_index\/get_app_tab/.test(url):
 	try {
 	  let obj = JSON.parse(body);
-	  console.log(obj);
+	  //console.log(obj);
 	  if (obj?.data.selected_list?.length > 0) {
 		let tabs = [];
 		for (let tab of obj.data.selected_list) {
@@ -29,7 +29,7 @@ switch (isResponse) {
   case /^http:\/\/go\.babytree\.com\/go_pregnancy\/api\/cms_column/.test(url):
 	try {
 	  let obj = JSON.parse(body);
-	  console.log(obj);
+	  //console.log(obj);
 	  if (obj?.data.list?.length > 0) {
 		obj.data.bucket_id = '';
 		obj.data.test_id = '';
