@@ -13,6 +13,8 @@ host-suffix, meituan.yoga, reject
 host-suffix, meituangov.cn, reject
 host-suffix, report.meituan.com, reject
 host-suffix, wmlog.meituan.com, reject
+# 51cto
+host, smartop-sdkapi.jiguang.cn, reject
 # 光大银行阳光惠生活
 host-keyword, talk.bz.getui.com, reject
 # 小鹏汽车
