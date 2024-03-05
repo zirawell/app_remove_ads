@@ -5,7 +5,8 @@ try {
   result.adv_summary={};
   result.hasAd="0";
   result.indexAd={};
-  result.updateInfo={};
+  result.updateInfo="";
+  result.appVersion="3.5.0";
   result.ad=[];
   body = JSON.stringify(obj);
 } catch (error) {
