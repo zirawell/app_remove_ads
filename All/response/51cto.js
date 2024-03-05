@@ -6,7 +6,6 @@ try {
   result.hasAd="0";
   result.indexAd={};
   result.updateInfo={};
-  result.showThird=0;
   result.ad=[];
   body = JSON.stringify(obj);
 } catch (error) {
