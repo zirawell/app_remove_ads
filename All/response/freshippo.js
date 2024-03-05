@@ -21,7 +21,6 @@ switch (isResponse) {
       obj.data.scenes = scenes;
     }
     body = JSON.stringify(obj);
-    
   } catch (error) {
     console.log(`盒马主页获取错误: ` + error);
   }

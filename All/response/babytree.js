@@ -9,16 +9,16 @@ switch (isResponse) {
 	  //console.log(obj);
 	  if (obj?.data.selected_list?.length > 0) {
 		let tabs = [];
-		for (let tab of obj.data.selected_list) {
-		  const items = [
+		const items = [
 			"首页",
 			"消息",
 			"我", 
-		  ];
+		];
+		for (let tab of obj.data.selected_list) {
 		  if (items?.includes(tab?.name)) {
-			tabs.push(tab);
+				tabs.push(tab);
 		  }
-	  	}
+	  }
 		obj.data.selected_list = tabs;
 	  }
 	  body = JSON.stringify(obj);
