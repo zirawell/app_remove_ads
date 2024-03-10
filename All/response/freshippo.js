@@ -1,15 +1,13 @@
 const url = $request.url;
 const isResponse = typeof $response !== "undefined";
 
-switch (isResponse) {
-  case /^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.wdk\.render\.queryindexpage/.test(url):
+if(url.indexOf("queryindexpage")!=-1){
   try {
     let body = $response.body;
     let obj = JSON.parse(body);
     const sceneTemplateId = [
       "509",
       "738",
-      
     ];
     if (obj?.data?.scenes?.length > 0) {
       let scenes = [];
@@ -24,9 +22,7 @@ switch (isResponse) {
   } catch (error) {
     console.log(`盒马主页获取错误: ` + error);
   }
-  break;
-
-  case /^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.wdk\.render\.querymypage/.test(url):
+}else if(url.indexOf("querymypage")!=-1){
   try {
     let body = $response.body;
     let obj = JSON.parse(body);
@@ -58,8 +54,5 @@ switch (isResponse) {
   } catch (error) {
     console.log(`盒马我的页获取错误: ` + error);
   }
-  break;
-
-  default:
-  $done({});
 }
+$done({});
