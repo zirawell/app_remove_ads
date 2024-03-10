@@ -17,6 +17,7 @@ if(url.indexOf("queryindexpage")!=-1){
         }
       }
       obj.data.scenes = scenes;
+      console.log("主页"+ scenes.length);
     }
     body = JSON.stringify(obj);
   } catch (error) {
@@ -48,6 +49,7 @@ if(url.indexOf("queryindexpage")!=-1){
         }
       }
       obj.data.scenes = scenes;
+      console.log("我的页"+ scenes.length);
     }
     body = JSON.stringify(obj);
   } catch (error) {
