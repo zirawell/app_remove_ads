@@ -7,12 +7,12 @@ if(url.indexOf("queryindexpage")!=-1){
     let obj = JSON.parse(body);
     const sceneTemplateId = [
       "509",
-      "738",
+      "738"
     ];
     if (obj?.data?.scenes?.length > 0) {
       let scenes = [];
       for (let scene of obj.data.scenes) {
-        if (sceneTemplateId?.includes(scene?.sceneTemplateId)) {
+        if (sceneTemplateId.includes(scene.sceneTemplateId)) {
           scenes.push(scene);
         }
       }
@@ -38,13 +38,12 @@ if(url.indexOf("queryindexpage")!=-1){
       "709",
       "432",
       "403",
-      "350",
-      
+      "350"
     ];
     if (obj?.data?.scenes?.length > 0) {
       let scenes = [];
       for (let scene of obj.data.scenes) {
-        if (sceneTemplateId?.includes(scene?.sceneTemplateId)) {
+        if (sceneTemplateId.includes(scene.sceneTemplateId)) {
           scenes.push(scene);
         }
       }
