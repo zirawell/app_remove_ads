@@ -22,8 +22,11 @@ if(isResponse){
     if(result.appVersion){
       result.appVersion="3.5.0";
     }
-    if(result.ad && result.ad.length>0){
-      result.ad=[];
+    if(result.ad){
+      result.ad={};
+    }
+    if(result.isExist){
+      result.isExist="0";
     }
     body = JSON.stringify(obj);
   } catch (error) {
