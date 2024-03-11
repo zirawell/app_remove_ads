@@ -22,7 +22,7 @@ if(isResponse){
     if(result.appVersion){
       result.appVersion="3.5.0";
     }
-    if(result.ad.length>0){
+    if(result.ad && result.ad.length>0){
       result.ad=[];
     }
     body = JSON.stringify(obj);
