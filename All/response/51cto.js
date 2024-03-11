@@ -4,13 +4,27 @@ if(isResponse){
   try {
     let obj = JSON.parse(body);
     let result = obj.result;
-    result.adv_summary={};
-    result.hasAd="0";
-    result.indexAd={};
-    result.showThird="0";
-    result.status="0";
-    result.appVersion="3.5.0";
-    result.ad=[];
+    if(result.adv_summary){
+      result.adv_summary={};
+    }
+    if(result.hasAd){
+      result.hasAd="0";
+    }
+    if(result.indexAd){
+      result.indexAd={};
+    }
+    if(result.showThird){
+      result.showThird="0";
+    }
+    if(result.status){
+      result.status="0";
+    }
+    if(result.appVersion){
+      result.appVersion="3.5.0";
+    }
+    if(result.ad.length>0){
+      result.ad=[];
+    }
     body = JSON.stringify(obj);
   } catch (error) {
     console.log(`51cto获取错误: ` + error);
