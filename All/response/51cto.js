@@ -1,6 +1,7 @@
 let body = $response.body;
 const isResponse = typeof $response !== "undefined";
-if(isResponse){
+let isJson = $request.headers["Content-Type"].indexOf("application/json")!=-1;
+if(isResponse && isJson){
   try {
     let obj = JSON.parse(body);
     let result = obj.result;
