@@ -31,7 +31,7 @@ const modifyIds = [
 if(blockIds.includes(ua)){
 	$done({status:"HTTP/1.1 404 Not Found"});
 }else if(modifyIds.includes(ua)){{
-	$done({body:{}});
+	$done({body:""});
 }else{
 	$done();
 }
