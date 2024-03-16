@@ -24,14 +24,9 @@ const blockIds = [
 	"1000002",
 	"1000019",
 ];
-const modifyIds = [
-	"1211001",
-]
 
 if(blockIds.includes(ua)){
 	$done({status:"HTTP/1.1 404 Not Found"});
-}else if(modifyIds.includes(ua)){{
-	$done({body:""});
 }else{
 	$done();
 }
