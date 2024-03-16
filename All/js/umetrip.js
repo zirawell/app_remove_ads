@@ -23,7 +23,16 @@ const ua = $request.headers.rpid||$request.headers.Rpid;
 const blockIds = [
 	"1000002",
 	"1000019",
-	"1211001",
-	
 ];
-ua && blockIds.includes(ua)?$done({status:"HTTP/1.1 404 Not Found"}):$done();
+const modifyIds = [
+	"1211001",
+]
+
+if(blockIds.includes(ua)){
+	$done({status:"HTTP/1.1 404 Not Found"});
+}else if(modifyIds.includes(ua)){{
+	$done({body:{}});
+}else{
+	$done();
+}
+
