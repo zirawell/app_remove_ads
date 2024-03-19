@@ -33,6 +33,8 @@ host,admarket.21cn.com, reject
 host,adshows.21cn.com, reject
 # 广发银行-发现精彩
 host, union.chinalifeonline.com.cn, reject
+# 12306
+host, ad.12306.cn, reject
 # 宝宝树
 host, m.meitun.com, reject
 host, adx.babytree.com, reject 
