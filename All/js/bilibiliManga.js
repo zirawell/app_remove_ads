@@ -19,11 +19,11 @@ http-request ^https?:\/\/manga\.bilibili\.com\/twirp\/user\.v\d\.User\/FollowOff
 hostname = manga.bilibili.com
 ********************************/
 
-let body = $response.body;
 const isResponse = typeof $response !== "undefined";
 
 if(isResponse){
   try {
+    let body = $response.body;
   	let obj = JSON.parse(body);
     const showPattern = [
       "活动中心",
