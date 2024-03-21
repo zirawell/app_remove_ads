@@ -4,6 +4,7 @@ Please note that you may need to reinstall app for script to work.
 
 QuantumultX rewrite link:
 ^https?:\/\/manga\.bilibili\.com\/twirp\/user\.v\d\.User\/UCenterConf url script-response-body https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/bilibiliManga.js
+^https?:\/\/manga\.bilibili\.com\/twirp\/user\.v\d\.User\/FollowOffcial url script-request-header https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/bilibiliManga.js
 
 Please note that the above rewrite link requires open KOP-XIAO's resource parser
 
@@ -12,6 +13,7 @@ Surge4, Loon and Shadowrocket configuration:
 
 [Script]
 http-response ^https?:\/\/manga\.bilibili\.com\/twirp\/user\.v\d\.User\/UCenterConf script-path=https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/bilibiliManga.js
+http-request ^https?:\/\/manga\.bilibili\.com\/twirp\/user\.v\d\.User\/FollowOffcial script-path=https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/bilibiliManga.js
 
 [MITM]
 hostname = manga.bilibili.com
@@ -46,5 +48,6 @@ if(isResponse){
   }
   $done({ body });
 }else{
+  delete $request.headers["session_id"];
   $done();
 }
