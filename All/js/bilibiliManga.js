@@ -19,19 +19,17 @@ http-request ^https?:\/\/manga\.bilibili\.com\/twirp\/user\.v\d\.User\/FollowOff
 hostname = manga.bilibili.com
 ********************************/
 
-const isResponse = typeof $response !== "undefined";
+const obj = JSON.parse(typeof $response != "undefined" && $response.body || null);
 
-if(isResponse){
+if(obj && obj.data){
   try {
-    let body = $response.body;
-  	let obj = JSON.parse(body);
     const showPattern = [
       "活动中心",
       "个性装扮",
       "我的已购",
       "超漫俱乐部",
     ];
-    if(obj?.data?.confs?.length > 0) {
+    if(obj.data.confs?.length > 0) {
       let newConfs = [];
       for (let conf of obj.data.confs) {
         if (showPattern.includes(conf?.title)) {
@@ -47,7 +45,7 @@ if(isResponse){
     console.log(`bilibili manga 获取错误: ` + error);
   }
   $done({ body });
-}else{
+}else if(typeof $response == "undefined"){
   delete $request.headers["session_id"];
   $done();
 }
