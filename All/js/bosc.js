@@ -3,7 +3,7 @@ BOSC Remove Ads - Version 1.0
 Please note that you may need to reinstall app for script to work.
 
 QuantumultX rewrite link:
-^https:\/\/mgs1\.bosc\.cn:3601\/mgw url script-request-header https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/bosc.js
+^https:\/\/mgs1\.bosc\.cn:3601\/mgw url script-response-header https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/bosc.js
 
 Please note that the above rewrite link requires open KOP-XIAO's resource parser
 

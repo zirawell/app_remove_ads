@@ -3,7 +3,7 @@
 Please note that you may need to reinstall app for script to work.
 
 QuantumultX rewrite link:
-^https:\/\/mobile\.12306\.cn\/otsmobile\/app\/mgs\/mgw\.htm$ url script-request-header https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/12306.js
+^https:\/\/mobile\.12306\.cn\/otsmobile\/app\/mgs\/mgw\.htm$ url script-response-header https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/12306.js
 
 Please note that the above rewrite link requires open KOP-XIAO's resource parser
 
