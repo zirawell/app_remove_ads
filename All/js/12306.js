@@ -3,7 +3,7 @@
 Please note that you may need to reinstall app for script to work.
 
 QuantumultX rewrite link:
-^https:\/\/mobile\.12306\.cn\/otsmobile\/app\/mgs\/mgw\.htm$ url script-response-header https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/12306.js
+^https:\/\/mobile\.12306\.cn\/otsmobile\/app\/mgs\/mgw\.htm$ url script-request-header https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/12306.js
 
 Please note that the above rewrite link requires open KOP-XIAO's resource parser
 
@@ -22,7 +22,7 @@ const header = $request.headers;
 const headopt = header["Operation-Type"] || header["operation-type"];
 const ua = header["User-Agent"] || header["user-agent"];
 
-const list_12306 = [
+const blockList = [
   // "com.cars.otsmobile.bangbangSafe.deciveInfo", // 设备序列号
   // "com.cars.otsmobile.checkLoginStatus", // 登录信息
   // "com.cars.otsmobile.city",
@@ -39,7 +39,7 @@ const list_12306 = [
   // "com.cars.otsmobile.travelPage.initData", // 出行服务
 ];
 
-if (list_12306?.includes(headopt)) {
+if (blockList?.includes(headopt)) {
   $done({ status: "HTTP/1.1 404 Not Found" });
 } else {
   $done({});

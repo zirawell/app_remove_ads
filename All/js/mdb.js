@@ -5,7 +5,6 @@ Please note that you may need to reinstall app for script to work.
 QuantumultX rewrite link:
 ^https?:\/\/creditcardapp\.bankcomm\.com\/rcg\/index\.html\?callbackurl=rcg\/index\.html&orclogin=1& url script-response-body https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/mdb.js
 
-
 Please note that the above rewrite link requires open KOP-XIAO's resource parser
 
 *********************************

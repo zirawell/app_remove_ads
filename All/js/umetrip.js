@@ -3,7 +3,7 @@ Umetrip Remove Ads - Version 1.0
 Please note that you may need to reinstall app for script to work.
 
 QuantumultX rewrite link:
-^https?:\/\/(bkclient|umerp|home)\.umetrip\.com(\.cn){0,1}\/gateway\/api\/umetrip\/native url script-response-header https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/umetrip.js
+^https?:\/\/(bkclient|umerp|home)\.umetrip\.com(\.cn){0,1}\/gateway\/api\/umetrip\/native url script-request-header https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/umetrip.js
 
 Please note that the above rewrite link requires open KOP-XIAO's resource parser
 
@@ -30,4 +30,3 @@ if(blockIds.includes(ua)){
 }else{
 	$done();
 }
-
