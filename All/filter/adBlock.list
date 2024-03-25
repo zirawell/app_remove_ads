@@ -1,6 +1,9 @@
 # 买单吧
 host-keyword, c-hzgt2.getui.com, reject
 host-suffix, track.bankcomm.com, reject
+# 航旅纵横
+host, analytics.umetrip.com, reject
+host, sensors.umetrip.com.cn, reject
 # 米家
 host, sdkconfig.ad.xiaomi.com, reject
 # 盯盯拍
@@ -47,6 +50,11 @@ host, ads.babytree.com, reject
 host, bbtads.babytree.com, reject 
 host, tracking.babytree.com, reject 
 host, mobads-pre-config.cdn.bcebos.com, reject 
+# 趣兜风
+host, m-adnet.dutils.com, reject
+host, m-adnet.hiaiabc.com, reject
+host, g-adnet.dutils.com, reject
+host, g-adnet.hiaiabc.com, reject
 # 大众点评
 host, dpmtpush.dianping.com, reject
 ip-cidr, 101.32.16.204/32, reject
