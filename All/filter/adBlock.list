@@ -38,6 +38,8 @@ host,ad.21cn.com, reject
 host,ad.k.21cn.com, reject
 host,admarket.21cn.com, reject
 host,adshows.21cn.com, reject
+# 马蜂窝
+host-suffix, advert.mafengwo.cn, reject
 # 广发银行-发现精彩
 host, union.chinalifeonline.com.cn, reject
 # 12306
