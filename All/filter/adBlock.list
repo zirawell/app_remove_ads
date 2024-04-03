@@ -70,4 +70,3 @@ host, ads.95516.com, reject
 host, analytics.95516.com, reject
 host, youhui.95516.com, reject
 host, tongzhi.95516.com, reject
-host-suffix, ads.cup.com.cn, reject
