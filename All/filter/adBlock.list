@@ -57,6 +57,8 @@ host, m-adnet.dutils.com, reject
 host, m-adnet.hiaiabc.com, reject
 host, g-adnet.dutils.com, reject
 host, g-adnet.hiaiabc.com, reject
+host, ossgw.alicdn.com, reject
+host, hudong.alicdn.com, reject
 # 大众点评
 host, dpmtpush.dianping.com, reject
 ip-cidr, 101.32.16.204/32, reject
