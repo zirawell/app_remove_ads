@@ -20,7 +20,6 @@ hostname = mobile.12306.cn
 const url = $request.url;
 const header = $request.headers;
 const headopt = header["Operation-Type"] || header["operation-type"];
-const ua = header["User-Agent"] || header["user-agent"];
 
 const blockList = [
   // "com.cars.otsmobile.bangbangSafe.deciveInfo", // 设备序列号
@@ -29,7 +28,7 @@ const blockList = [
   // "com.cars.otsmobile.initCountry",
   // "com.cars.otsmobile.initNewSysCache",
   // "com.cars.otsmobile.initProvince",
-  "com.cars.otsmobile.integration.activityBanner", // 活动横幅
+  //"com.cars.otsmobile.integration.activityBanner", // 活动横幅
   "com.cars.otsmobile.memberInfo.getMemberQa", // 铁路会员 常见问题
   // "com.cars.otsmobile.memberInfo.integrationHomeInit", // 铁路会员 会员信息
   // "com.cars.otsmobile.newHomePage.getWeatherByStationCode", // 天气信息
@@ -40,7 +39,7 @@ const blockList = [
 ];
 
 if (blockList?.includes(headopt)) {
-  $done({ status: "HTTP/1.1 404 Not Found" });
+  $done({ status: "HTTP/1.1 204 No Content" });
 } else {
   $done({});
 }
