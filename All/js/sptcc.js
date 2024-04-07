@@ -14,7 +14,7 @@ Surge4, Loon and Shadowrocket configuration:
 ^https?:\/\/online\.sptcc\.com:\d+\/handapp_update\/AppInfo script-path=https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/sptcc.js
 
 [MITM]
-hostname = acs.m.taobao.com
+hostname = online.sptcc.com
 ********************************/
 
 const url = $request.url;
