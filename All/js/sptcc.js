@@ -24,7 +24,7 @@ let body = $response.body;
 if(isResponse){
   let obj = JSON.parse(body);
   if(obj?.myPageBanner){
-    obj.myPageBanner=[{}];
+    obj.myPageBanner=[];
   }
   body = JSON.stringify(obj);
   $done({ body });
