@@ -1,2 +1,3 @@
 host, ossgw.alicdn.com, reject
 host, hudong.alicdn.com, reject
+host-suffix, mpush-api.aliyun.com, reject
