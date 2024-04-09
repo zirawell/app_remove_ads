@@ -1,14 +1,14 @@
-# 买单吧
+# > 买单吧 - BANKCOMM
 host-keyword, c-hzgt2.getui.com, reject
 host-suffix, track.bankcomm.com, reject
-# 航旅纵横
+# > 航旅纵横 - UMETRIP
 host, analytics.umetrip.com, reject
 host, sensors.umetrip.com.cn, reject
-# 米家
+# > 米家 - MIHOME
 host, sdkconfig.ad.xiaomi.com, reject
-# 盯盯拍
+# > 盯盯拍 - DDPAI
 host, pglstatp-toutiao.com, reject
-# 美团
+# > 美团 - MEITUAN
 host, flowplus.meituan.net, reject
 host-suffix, analytics.meituan.net, reject
 host-suffix, meituan.xn, reject
@@ -20,31 +20,31 @@ host-suffix, ad.e.waimai.sankuai.com, reject
 host-suffix, mads.meituan.com, reject
 host-suffix, dreport.meituan.net, reject
 host-suffix, d.meituan.net, reject
-# 51cto
+# > 51cto - 51CTO
 host, smartop-sdkapi.jiguang.cn, reject
 host, smartop-sdkapi-ipv6.jiguang.cn, reject
-# 光大银行阳光惠生活
+# > 阳光惠生活 - CEBBANK
 host-keyword, talk.bz.getui.com, reject
-# 小鹏汽车
+# > 小鹏汽车 - XPENG
 host, api-adservices.apple.com, reject
 host, api.weibo.com, reject
-# 同程旅行
+# > 同程旅行 - 17U
 host, vstlog.17usoft.com, reject
-# 招商银行
+# > 招商银行 - CMBCHINA
 host, mbads.paas.cmbchina.com, reject
 host, yl.zh.cmbchina.com, reject
-# 中国电信
+# > 中国电信 - 189
 host,ad.21cn.com, reject
 host,ad.k.21cn.com, reject
 host,admarket.21cn.com, reject
 host,adshows.21cn.com, reject
-# 马蜂窝
+# > 马蜂窝 - MAFENGWO
 host-suffix, advert.mafengwo.cn, reject
-# 广发银行-发现精彩
+# > 发现精彩 - 95508
 host, union.chinalifeonline.com.cn, reject
-# 12306
+# > 12306 - 12306
 host, ad.12306.cn, reject
-# 宝宝树
+# > 宝宝树 - BABYTREE
 host, m.meitun.com, reject
 host, adx.babytree.com, reject 
 host, adx-backend.babytree.com, reject 
@@ -52,23 +52,24 @@ host, ads.babytree.com, reject
 host, bbtads.babytree.com, reject 
 host, tracking.babytree.com, reject 
 host, mobads-pre-config.cdn.bcebos.com, reject 
-# 趣兜风
+# > 趣兜风 - QDF
 host, m-adnet.dutils.com, reject
 host, m-adnet.hiaiabc.com, reject
 host, g-adnet.dutils.com, reject
 host, g-adnet.hiaiabc.com, reject
+# > 阿里系通用规则 - ALI_GENERAL
 host, ossgw.alicdn.com, reject
 host, hudong.alicdn.com, reject
 host-suffix, mpush-api.aliyun.com, reject
-# 大众点评
+# > 大众点评 - DIANPING
 host, dpmtpush.dianping.com, reject
 ip-cidr, 101.32.16.204/32, reject
 ip-cidr, 203.76.217.244/32, reject
 ip-cidr, 119.29.126.137/32, reject
-# 一号店
+# > 一号店 - YHD
 host-suffix, api.dsp.yhd.com, reject
 host-suffix, tracker.yhd.com, reject
-# 云闪付
+# > 云闪付 - 95516
 host, ads.95516.com, reject
 host, analytics.95516.com, reject
 host, youhui.95516.com, reject
