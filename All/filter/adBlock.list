@@ -53,6 +53,11 @@ host, g-adnet.hiaiabc.com, reject
 # > 小鹏汽车 - XPENG
 host, api-adservices.apple.com, reject
 host, api.weibo.com, reject
+# > 哔哩哔哩(国际版) - BILIBILI(WHITE)
+host, ptom.caohua.com, reject
+host, tracking.leiting.com, reject
+host, ads.games.laohu.com, reject
+host, shark-tracer.netease.com, reject
 # > 宝宝树 - BABYTREE
 host, m.meitun.com, reject
 host, adx.babytree.com, reject 
@@ -61,11 +66,6 @@ host, ads.babytree.com, reject
 host, bbtads.babytree.com, reject 
 host, tracking.babytree.com, reject 
 host, mobads-pre-config.cdn.bcebos.com, reject 
-# > 哔哩哔哩 - BILIBILI
-host, ptom.caohua.com, reject
-host, tracking.leiting.com, reject
-host, ads.games.laohu.com, reject
-host, shark-tracer.netease.com, reject
 # > 一号店 - YHD
 host-suffix, api.dsp.yhd.com, reject
 host-suffix, tracker.yhd.com, reject
