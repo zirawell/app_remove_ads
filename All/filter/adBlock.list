@@ -19,6 +19,10 @@ host-suffix, mpush-api.aliyun.com, reject
 # > 航旅纵横 - UMETRIP
 host, analytics.umetrip.com, reject
 host, sensors.umetrip.com.cn, reject
+# > 虎牙直播 - HUYA
+host, live-ads.huya.com, reject
+# > 杭州市民 - 96225
+host, ads.iconntech.com, reject
 # > 买单吧 - BANKCOMM
 host-keyword, c-hzgt2.getui.com, reject
 host-suffix, track.bankcomm.com, reject
