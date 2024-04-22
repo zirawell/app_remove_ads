@@ -31,4 +31,6 @@ if(isResponse){
     console.log(`flyert获取错误: ` + error);
   }
   $done({ body });
+}else{
+  $done();
 }
