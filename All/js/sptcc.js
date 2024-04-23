@@ -26,6 +26,9 @@ if(isResponse){
   if(obj?.myPageBanner){
     obj.myPageBanner=[];
   }
+  if(obj?.mainPage_recommend){
+    obj.mainPage_recommend={};
+  }
   body = JSON.stringify(obj);
   $done({ body });
 }else{
