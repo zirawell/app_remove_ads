@@ -1,5 +1,5 @@
 /********************************
-JINGDONG Remove Ads - Version 1.0
+Jingdong Remove Ads - Version 1.0
 Please note that you may need to reinstall app for script to work.
 
 QuantumultX rewrite link:
