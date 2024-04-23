@@ -26,8 +26,8 @@ if(isResponse){
   if(obj?.myPageBanner){
     obj.myPageBanner=[];
   }
-  if(obj?.mainPage_recommend){
-    obj.mainPage_recommend={};
+  if(obj?.mainPage_recommend?.waterfallFlow){
+    obj.mainPage_recommend.waterfallFlow=[];
   }
   body = JSON.stringify(obj);
   $done({ body });
