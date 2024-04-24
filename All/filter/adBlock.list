@@ -42,8 +42,6 @@ host-suffix, dreport.meituan.net, reject
 host-suffix, d.meituan.net, reject
 # > 马蜂窝 - MAFENGWO
 host-suffix, advert.mafengwo.cn, reject
-# > 叮嗒出行 - DINGDA
-host-suffix, admobile.top, reject
 # > 盯盯拍 - DDPAI
 host, pglstatp-toutiao.com, reject
 # > 大众点评 - DIANPING
@@ -74,8 +72,6 @@ host, ads.babytree.com, reject
 host, bbtads.babytree.com, reject 
 host, tracking.babytree.com, reject 
 host, mobads-pre-config.cdn.bcebos.com, reject 
-# > 两步路 - 2BULU
-host-suffix, admobile.top url reject
 # > lofter - LOFTER
 host, ad.lofter.com, reject
 # > 一号店 - YHD
