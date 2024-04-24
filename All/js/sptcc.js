@@ -29,6 +29,9 @@ if(isResponse){
   if(obj?.mainPage_recommend){
     obj.mainPage_recommend.waterfallFlow=[];
   }
+  if(obj?.ggLykLinkArray){
+    obj.ggLykLinkArray=[];
+  }
   body = JSON.stringify(obj);
   $done({ body });
 }else{
