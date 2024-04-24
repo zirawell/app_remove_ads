@@ -74,6 +74,10 @@ host, ads.babytree.com, reject
 host, bbtads.babytree.com, reject 
 host, tracking.babytree.com, reject 
 host, mobads-pre-config.cdn.bcebos.com, reject 
+# > 两步路 - 2BULU
+host-suffix, admobile.top url reject
+# > lofter - LOFTER
+host, ad.lofter.com, reject
 # > 一号店 - YHD
 host-suffix, api.dsp.yhd.com, reject
 host-suffix, tracker.yhd.com, reject
