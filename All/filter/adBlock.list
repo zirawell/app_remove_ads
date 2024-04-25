@@ -12,6 +12,11 @@ host,admarket.21cn.com, reject
 host,adshows.21cn.com, reject
 # > 同程旅行 - 17U
 host, vstlog.17usoft.com, reject
+# > trip - TRIP
+host-suffix, graph.facebook.com, reject
+host-suffix, app.adjust.net.in, reject
+host-suffix, app.adjust.world, reject
+host-suffix, m.ctripins.com, reject
 # > 阿里系通用规则 - ALI_GENERAL
 host, ossgw.alicdn.com, reject
 host, hudong.alicdn.com, reject
