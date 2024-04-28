@@ -1,2 +1,11 @@
 # > 通用过滤 - GENERAL
 host-suffix, admobile.top, reject
+# > 广告联盟 - ADUNION
+host-suffix, miaozhen.com, reject
+host-keyword, -ad-sign.byteimg.com, reject
+host-keyword, -tos.pstatp.com, reject
+host-keyword, asiad.byteactivity, reject
+host-keyword, pangolin-sdk-toutiao, reject
+host-keyword, pangolin.snssdk.com, reject
+host-keyword, pglstatp-toutiao, reject
+host-keyword, video-cn.snssdk.com, reject
