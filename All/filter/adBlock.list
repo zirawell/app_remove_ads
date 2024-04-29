@@ -30,7 +30,6 @@ host, live-ads.huya.com, reject
 # > 杭州市民 - 96225
 host, ads.iconntech.com, reject
 # > 买单吧 - BANKCOMM
-host-keyword, c-hzgt2.getui.com, reject
 host-suffix, track.bankcomm.com, reject
 # > 米家 - MIHOME
 host, sdkconfig.ad.xiaomi.com, reject
@@ -95,7 +94,16 @@ host, switch.cup.com.cn, reject
 # > 51cto - 51CTO
 host, smartop-sdkapi.jiguang.cn, reject
 host, smartop-sdkapi-ipv6.jiguang.cn, reject
+# > 12123 - 12123
+host-suffix, v3.fstats.xyz, reject
+host-suffix, wss.haoyundmn.com, reject
+host-suffix, new.xiongzhangad.com, reject
+host-suffix, alexametrics.com, reject
+host-keyword, in-page-push, reject
 # > 12306 - 12306
 host, ad.12306.cn, reject
+# > 58同城 - 58
+host, track.58.com, reject
+host, tracklog.58.com, reject
 # > 360儿童卫士 - 360
 host, ad.life.360.cn, reject
