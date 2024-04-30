@@ -19,8 +19,9 @@ http-response ^https?:\/\/manga\.bilibili\.com\/twirp\/user\.v\d\.User\/GetInitI
 hostname = manga.bilibili.com
 ********************************/
 
-let url = $request.url;
+const url = $request.url;
 const obj = JSON.parse(typeof $response != "undefined" && $response.body || null);
+let body = $response.body;
 
 if(obj && obj.data){
   try {
