@@ -59,6 +59,7 @@ host, m-adnet.dutils.com, reject
 host, m-adnet.hiaiabc.com, reject
 host, g-adnet.dutils.com, reject
 host, g-adnet.hiaiabc.com, reject
+host, st7niu.aicarmap.com, reject
 # > 亲宝宝 - QBB
 host-suffix, apilog.qbb6.com, reject
 # > 小鹏汽车 - XPENG
