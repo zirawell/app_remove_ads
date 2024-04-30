@@ -25,6 +25,7 @@ let body = $response.body;
 
 if(obj && obj.data){
   try {
+    //我的页按钮展示
     if (url.includes("/UCenterConf")){
       const showPattern = [
         "活动中心",
@@ -43,6 +44,7 @@ if(obj && obj.data){
       }
       obj.data.show_welfare = false;
       obj.data.show_all_welfare = false;
+    //我的页底部关注官方号提示去除
     }else if(url.includes("/GetInitInfo")){
       if(obj?.data){
         obj.data.had_follow_offcial=true;
