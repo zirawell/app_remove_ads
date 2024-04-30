@@ -42,12 +42,12 @@ if(obj && obj.data){
       }
       obj.data.show_welfare = false;
       obj.data.show_all_welfare = false;
-      body = JSON.stringify(obj);
     }else if(url.includes("/GetInitInfo")){
       if(obj?.data){
         obj.data.had_follow_offcial=true;
       }
     }
+    body = JSON.stringify(obj);
   } catch (error) {
     console.log(`bilibili manga 获取错误: ` + error);
   }
