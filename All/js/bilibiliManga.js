@@ -5,6 +5,7 @@ Please note that you may need to reinstall app for script to work.
 QuantumultX rewrite link:
 ^https?:\/\/manga\.bilibili\.com\/twirp\/user\.v\d\.User\/UCenterConf url script-response-body https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/bilibiliManga.js
 ^https?:\/\/manga\.bilibili\.com\/twirp\/user\.v\d\.User\/GetInitInfo url script-response-body https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/bilibiliManga.js
+^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Home\/HomeFeed url script-response-body https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/bilibiliManga.js
 
 Please note that the above rewrite link requires open KOP-XIAO's resource parser
 
@@ -14,6 +15,7 @@ Surge4, Loon and Shadowrocket configuration:
 [Script]
 http-response ^https?:\/\/manga\.bilibili\.com\/twirp\/user\.v\d\.User\/UCenterConf script-path=https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/bilibiliManga.js
 http-response ^https?:\/\/manga\.bilibili\.com\/twirp\/user\.v\d\.User\/GetInitInfo script-path=https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/bilibiliManga.js
+http-response ^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Home\/HomeFeed script-path=https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/bilibiliManga.js
 
 [MITM]
 hostname = manga.bilibili.com
@@ -48,6 +50,15 @@ if(obj && obj.data){
     }else if(url.includes("/GetInitInfo")){
       if(obj?.data){
         obj.data.had_follow_offcial=true;
+      }
+    //首页去除商品推荐
+    }else if(url.includes("/HomeFeed")){
+      if(obj?.data?.feeds?.length > 0){
+        obj.data.feeds = obj.data.feeds.filter(function(feed) {
+           if(!feed.image.includes("/mall/")){
+            return feed;
+          }
+        });
       }
     }
     body = JSON.stringify(obj);
