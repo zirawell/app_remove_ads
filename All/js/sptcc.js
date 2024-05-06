@@ -32,11 +32,11 @@ if(isResponse){
   if(obj?.ggLykLinkArray){
     obj.ggLykLinkArray=[];
   }
-  if(obj?.info){
-    obj.info="";
+  if(obj?.version){
+    obj.version="1";
   }
-  if(obj?.virtualFlag){
-    obj.virtualFlag="false";
+  if(obj?.md){
+    obj.md="1";
   }
   body = JSON.stringify(obj);
   $done({ body });
