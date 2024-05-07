@@ -1,0 +1,25 @@
+# > 番茄小说 - FANQIE
+host, abtest3-misc.zijieapi.com, reject
+host, bsync3-normal.zijieapi.com, reject
+host, content-open.douyin.com, reject
+host, dig.bdurl.net, reject
+host, dig.zjurl.cn, reject
+host, effect.snssdk.com, reject
+host, feedback-c.zijieapi.com, reject
+host, ichannel.snssdk.com, reject
+host, is.snssdk.com, reject
+host, lf-webcast-gr-sourcecdn.bytegecko.com, reject
+host, lf3-reading.fqnovelstatic.com, reject
+host, log5-applog.fqnovel.com, reject
+host, mon11-misc.fqnovel.com, reject
+host, mssdk.volces.com, reject
+host, mssdk.zijieapi.com, reject
+host, polaris.zijieapi.com, reject
+host, reading.snssdk.com, reject
+host, rtlog5-applog.fqnovel.com, reject
+host, timon.zijieapi.com, reject
+host, toutiao-frontier.snssdk.com, reject
+host, ug.snssdk.com, reject
+host, vcs.zijieapi.com, reject
+host, webcast-open.douyin.com, reject
+host, zlink.ugsdk.cn, reject
