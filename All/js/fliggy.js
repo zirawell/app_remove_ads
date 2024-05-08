@@ -26,24 +26,12 @@ if(isResponse){
     let obj = JSON.parse(body);
     if(url.includes("mtop.fliggy.ssif.pattern.home")){
       const designedStructure = {
-        "s_vertical_homepage_topservice_layout": [
-          "s_vertical_homepage_topservice_title",
-          "s_vertical_homepage_topservice_content_i_0",
-          "s_vertical_homepage_topservice_content_i_1"
+        "root" : [
+          "s_vertical_homepage_tab_container",
+          "home_guess_single_tab_content_1439446"
         ],
-        "s_share_guessyoulike_home_gul_tab_layout": [
-          "s_share_guessyoulike_home_gul_tab_2021"
-        ],
-        "root": [
-          "s_vertical_homepage_inner_scroll_layout",
-          "s_vertical_homepage_cheap_2021_5",
-          "s_vertical_homepage_wonderful_journey_channel",
-          "s_vertical_homepage_cheap_bottom_gap",
-          "s_vertical_homepage_topservice_layout"
-        ],
-        "s_vertical_homepage_inner_scroll_layout": [
-          "s_vertical_homepage_search_btns_2022",
-          "s_vertical_homepage_kingkong_2022"
+        "home_guess_single_tab_content_1439446" : [
+          
         ]
       };
   	 if(typeof obj?.data?.hierarchy?.structure !== "undefined") {
