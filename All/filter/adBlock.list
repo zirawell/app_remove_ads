@@ -21,6 +21,10 @@ host-suffix, graph.facebook.com, reject
 host-suffix, app.adjust.net.in, reject
 host-suffix, app.adjust.world, reject
 host-suffix, m.ctripins.com, reject
+# > 上海银行 - BOSC
+host-suffix, pmbanalysis.bosc.cn, reject
+host-suffix, pmbmpush.bosc.cn, reject
+host-suffix, pmbservice2.bosc.cn, reject
 # > 阿里系通用规则 - ALI_GENERAL
 host, ossgw.alicdn.com, reject
 host, hudong.alicdn.com, reject
