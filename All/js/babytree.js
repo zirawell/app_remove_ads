@@ -24,18 +24,19 @@ if(isResponse){
   let obj = JSON.parse(body);
   if(url.includes("/api/app_index/get_app_tab")){
     if (obj?.data.selected_list?.length > 0) {
-		let tabs = [];
-		const items = [
-			"首页",
-			"消息",
-			"我",
-		];
-		for (let tab of obj.data.selected_list) {
-		  if (items?.includes(tab?.name)) {
-				tabs.push(tab);
-		  }
+			let tabs = [];
+			const items = [
+				"首页",
+				"消息",
+				"我",
+			];
+			for (let tab of obj.data.selected_list) {
+				if (items?.includes(tab?.name)) {
+					tabs.push(tab);
+				}
+			}
+			obj.data.selected_list = tabs;
 		}
-		obj.data.selected_list = tabs;
 	}else if(url.includes("/api/cms_column")){
 		if (obj?.data.list?.length > 0) {
 			obj.data.bucket_id = '';
