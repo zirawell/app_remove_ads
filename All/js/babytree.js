@@ -20,45 +20,32 @@ const url = $request.url;
 const isResponse = typeof $response !== "undefined";
 let body = $response.body;
 
-switch (isResponse) {
-  case /^http:\/\/go\.babytree\.com\/go_pregnancy\/api\/app_index\/get_app_tab/.test(url):
-	try {
-	  let obj = JSON.parse(body);
-	  if (obj?.data.selected_list?.length > 0) {
+if(isResponse){
+  let obj = JSON.parse(body);
+  if(url.includes("/api/app_index/get_app_tab")){
+    if (obj?.data.selected_list?.length > 0) {
 		let tabs = [];
 		const items = [
 			"首页",
 			"消息",
-			"我", 
+			"我",
 		];
 		for (let tab of obj.data.selected_list) {
 		  if (items?.includes(tab?.name)) {
 				tabs.push(tab);
 		  }
-	  }
+		}
 		obj.data.selected_list = tabs;
-	  }
-	  body = JSON.stringify(obj);
-	} catch (error) {
-	  console.log(`宝宝树tab获取错误: ` + error);
+	}else if(url.includes("/api/cms_column")){
+		if (obj?.data.list?.length > 0) {
+			obj.data.bucket_id = '';
+			obj.data.test_id = '';
+			obj.data.log_content = '';
+			obj.data.list = [];
+		}
 	}
-	break;
-  case /^http:\/\/go\.babytree\.com\/go_pregnancy\/api\/cms_column/.test(url):
-	try {
-	  let obj = JSON.parse(body);
-	  if (obj?.data.list?.length > 0) {
-		obj.data.bucket_id = '';
-		obj.data.test_id = '';
-		obj.data.log_content = '';
-		obj.data.list = [];
-	  }
-	  body = JSON.stringify(obj);
-	} catch (error) {
-	  console.log(`宝宝树cms获取错误: ` + error);
-	}
-	break;
-  default:
-	$done({});
+  body = JSON.stringify(obj);
+  $done({ body });
+}else{
+  $done();
 }
-
-$done({ body });

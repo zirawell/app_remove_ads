@@ -19,52 +19,45 @@ hostname = acs.m.taobao.com, acs-m.freshippo.com
 
 const url = $request.url;
 let obj=JSON.parse($response.body);
-
+// 首页
 if(url.indexOf("queryindexpage")!=-1){
-  try {
-    const sceneTemplateId = [
-      "509",
-      "738"
-    ];
-    if (obj?.data?.scenes?.length > 0) {
-      let scenes = [];
-      for (let scene of obj.data.scenes) {
-        if (sceneTemplateId.includes(scene.sceneTemplateId)) {
-          scenes.push(scene);
-        }
+  const sceneTemplateId = [
+    "509",
+    "738"
+  ];
+  if (obj?.data?.scenes?.length > 0) {
+    let scenes = [];
+    for (let scene of obj.data.scenes) {
+      if (sceneTemplateId.includes(scene.sceneTemplateId)) {
+        scenes.push(scene);
       }
-      obj.data.scenes = scenes;
     }
-  } catch (error) {
-    console.log(`盒马主页获取错误: ` + error);
+    obj.data.scenes = scenes;
   }
+// 我的页
 }else if(url.indexOf("querymypage")!=-1){
-  try {
-    const sceneTemplateId = [
-      "906",
-      "907",
-      "198",
-      "286",
-      "431",
-      "185",
-      "230",
-      "978",
-      "709",
-      "432",
-      "403",
-      "350"
-    ];
-    if (obj?.data?.scenes?.length > 0) {
-      let scenes = [];
-      for (let scene of obj.data.scenes) {
-        if (sceneTemplateId.includes(scene.sceneTemplateId)) {
-          scenes.push(scene);
-        }
+  const sceneTemplateId = [
+    "906",
+    "907",
+    "198",
+    "286",
+    "431",
+    "185",
+    "230",
+    "978",
+    "709",
+    "432",
+    "403",
+    "350"
+  ];
+  if (obj?.data?.scenes?.length > 0) {
+    let scenes = [];
+    for (let scene of obj.data.scenes) {
+      if (sceneTemplateId.includes(scene.sceneTemplateId)) {
+        scenes.push(scene);
       }
-      obj.data.scenes = scenes;
     }
-  } catch (error) {
-    console.log(`盒马我的页获取错误: ` + error);
+    obj.data.scenes = scenes;
   }
 }else{
   $done({});

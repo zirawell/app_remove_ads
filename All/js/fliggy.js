@@ -22,33 +22,29 @@ const isResponse = typeof $response !== "undefined";
 let body = $response.body;
 
 if(isResponse){
-  try {
-    let obj = JSON.parse(body);
-    if(url.includes("mtop.fliggy.ssif.pattern.home")){
-      const designedStructure = {
-        "s_vertical_homepage_inner_scroll_layout" : [
-          "s_vertical_homepage_search_btns_2022",
-          "s_vertical_homepage_kingkong_2022"
-        ],
-        "root" : [
-          "s_vertical_homepage_inner_scroll_layout",
-          "s_vertical_homepage_cheap_2021_5",
-          "s_vertical_homepage_wonderful_journey_channel",
-          "s_vertical_homepage_cheap_bottom_gap",
-          "s_vertical_homepage_topservice_layout"
-        ],
-        "s_share_guessyoulike_home_gul_tab_layout" : [
-          "s_share_guessyoulike_home_gul_tab_2021"
-        ]
-      };
-  	 if(typeof obj?.data?.hierarchy?.structure !== "undefined") {
-		    obj.data.hierarchy.structure = designedStructure;
-	   }
-    }
-    body = JSON.stringify(obj);
-  } catch (error) {
-    console.log(`fliggy 获取错误: ` + error);
+  let obj = JSON.parse(body);
+  if(url.includes("mtop.fliggy.ssif.pattern.home")){
+    const designedStructure = {
+      "s_vertical_homepage_inner_scroll_layout" : [
+        "s_vertical_homepage_search_btns_2022",
+        "s_vertical_homepage_kingkong_2022"
+      ],
+      "root" : [
+        "s_vertical_homepage_inner_scroll_layout",
+        "s_vertical_homepage_cheap_2021_5",
+        "s_vertical_homepage_wonderful_journey_channel",
+        "s_vertical_homepage_cheap_bottom_gap",
+        "s_vertical_homepage_topservice_layout"
+      ],
+      "s_share_guessyoulike_home_gul_tab_layout" : [
+        "s_share_guessyoulike_home_gul_tab_2021"
+      ]
+    };
+   if(typeof obj?.data?.hierarchy?.structure !== "undefined") {
+	    obj.data.hierarchy.structure = designedStructure;
+	 }
   }
+  body = JSON.stringify(obj);
   $done({ body });
 }else{
   $done();
