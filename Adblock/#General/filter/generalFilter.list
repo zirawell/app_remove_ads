@@ -1,5 +1,7 @@
 # > 通用过滤 - GENERAL
 host-suffix, admobile.top, reject
+host-suffix, pubads.g.doubleclick.net, reject
+host-suffix, pagead2.googleadservices.com
 # > 广告联盟 - ADUNION
 host-suffix, miaozhen.com, reject
 host-keyword, -ad-sign.byteimg.com, reject

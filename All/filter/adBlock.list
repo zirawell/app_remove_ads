@@ -1,3 +1,5 @@
+# > U净 - UJING
+host-suffix, ads.zhinengxiyifang.cn, reject
 # > 阳光惠生活 - CEBBANK
 host-keyword, talk.bz.getui.com, reject
 # > 发现精彩 - 95508
@@ -118,6 +120,19 @@ host, ads.babytree.com, reject
 host, bbtads.babytree.com, reject 
 host, tracking.babytree.com, reject 
 host, mobads-pre-config.cdn.bcebos.com, reject 
+# > 通用过滤 - GENERAL
+host-suffix, admobile.top, reject
+host-suffix, pubads.g.doubleclick.net, reject
+host-suffix, pagead2.googleadservices.com
+# > 广告联盟 - ADUNION
+host-suffix, miaozhen.com, reject
+host-keyword, -ad-sign.byteimg.com, reject
+host-keyword, -tos.pstatp.com, reject
+host-keyword, asiad.byteactivity, reject
+host-keyword, pangolin-sdk-toutiao, reject
+host-keyword, pangolin.snssdk.com, reject
+host-keyword, pglstatp-toutiao, reject
+host-keyword, video-cn.snssdk.com, reject
 # > lofter - LOFTER
 host, ad.lofter.com, reject
 # > 一号店 - YHD
