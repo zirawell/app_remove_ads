@@ -163,3 +163,11 @@ host, track.58.com, reject
 host, tracklog.58.com, reject
 # > 360儿童卫士 - 360
 host, ad.life.360.cn, reject
+# > 收钱吧<微信小程序> - SHOUQIANBA
+host, ads-shopping.shouqianba.com, reject
+# > 猫眼电影<微信小程序> - MAOYAN
+host, ad.maoyan.com, reject
+# > 通用规则<微信小程序> - WECHATWAP
+host, wxsnsdy.wxs.qq.com, reject
+host, wxsmsdy.video.qq.com, reject
+host, wxsnsdythumb.wxs.qq.com, reject
