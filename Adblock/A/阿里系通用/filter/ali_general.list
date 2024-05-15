@@ -3,3 +3,4 @@ host, ossgw.alicdn.com, reject
 host, hudong.alicdn.com, reject
 host, o2o-ad-log-gateway.alibaba.com, reject
 host-suffix, mpush-api.aliyun.com, reject
+host-keyword, alibabadns, reject
