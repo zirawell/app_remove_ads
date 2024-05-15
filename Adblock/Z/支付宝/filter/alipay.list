@@ -1,4 +1,3 @@
 # > 支付宝 - ALIPAY
 host-suffix, mdap.alipay.com, reject
-host-suffix, loggw.alipaydns.com, reject
 host-suffix, loggw.alipay.com.cn, reject

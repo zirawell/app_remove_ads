@@ -14,7 +14,6 @@ host,admarket.21cn.com, reject
 host,adshows.21cn.com, reject
 # > 支付宝 - ALIPAY
 host-suffix, mdap.alipay.com, reject
-host-suffix, loggw.alipaydns.com, reject
 host-suffix, loggw.alipay.com.cn, reject
 # > 同程旅行 - 17U
 host, vstlog.17usoft.com, reject
