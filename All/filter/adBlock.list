@@ -33,7 +33,6 @@ host, ossgw.alicdn.com, reject
 host, hudong.alicdn.com, reject
 host, o2o-ad-log-gateway.alibaba.com, reject
 host-suffix, mpush-api.aliyun.com, reject
-host-keyword, alibabadns, reject
 # > 番茄小说 - FANQIE
 host, abtest3-misc.zijieapi.com, reject
 host, bsync3-normal.zijieapi.com, reject
