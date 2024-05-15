@@ -1,4 +1,2 @@
 # > 盒马 - FRESHIPPO
 ip-cidr, 59.82.120.0/24, reject
-host, atoken.m.taobao.com, reject
-host, eco.taobao.com, reject

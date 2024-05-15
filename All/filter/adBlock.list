@@ -62,8 +62,6 @@ host, analytics.umetrip.com, reject
 host, sensors.umetrip.com.cn, reject
 # > 盒马 - FRESHIPPO
 ip-cidr, 59.82.120.0/24, reject
-host, atoken.m.taobao.com, reject
-host, eco.taobao.com, reject
 # > 虎牙直播 - HUYA
 host, live-ads.huya.com, reject
 # > 杭州市民 - 96225
