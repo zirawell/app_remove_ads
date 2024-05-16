@@ -17,10 +17,12 @@ http-response ^https?:\/\/go\.babytree\.com\/go_pregnancy\/api\/(app_index|cms_c
 hostname = go.babytree.com, api.babytree.com, plough.babytree.com
 ********************************/
 const url = $request.url;
-const isResponse = typeof $response !== "undefined";
 let body = $response.body;
+let headers = $response.headers;
+const isResponse = typeof $response !== "undefined";
+const isJson = headers["Content-Type"] == "application/json";
 
-if(isResponse){
+if(isResponse && isJson){
   let obj = JSON.parse(body);
   if(url.includes("/api/app_index/get_app_tab")){
     if (obj?.data.selected_list?.length > 0) {

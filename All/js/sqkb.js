@@ -20,10 +20,12 @@ hostname = api.17gwx.com
 ********************************/
 
 const url = $request.url;
-const isResponse = typeof $response != "undefined";
 let body = $response.body;
+let headers = $response.headers;
+const isResponse = typeof $response != "undefined";
+const isJson = headers["Content-Type"] == "application/json";
 
-if(isResponse){
+if(isResponse && isJson){
   let obj = JSON.parse(body);
   if (url.includes("/remind/list")){
     if(obj?.data){

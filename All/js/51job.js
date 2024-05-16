@@ -19,8 +19,11 @@ hostname = cupid.51job.com
 ********************************/
 
 let body = $response.body;
+let headers = $response.headers;
 const isResponse = typeof $response !== "undefined";
-if(isResponse){
+const isJson = headers["Content-Type"] == "application/json";
+
+if(isResponse && isJson){
   let obj = JSON.parse(body);
   let result = obj.resultbody;
   result.adsTabFeeds=[];

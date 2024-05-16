@@ -18,8 +18,11 @@ hostname = edu.51cto.com
 ********************************/
 
 let body = $response.body;
+let headers = $response.headers;
 const isResponse = typeof $response !== "undefined";
-if(isResponse){
+const isJson = headers["Content-Type"] == "application/json";
+
+if(isResponse && isJson){
   let obj = JSON.parse(body);
   let result = obj.result;
   if(result.adv_summary){

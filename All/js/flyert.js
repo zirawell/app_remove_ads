@@ -21,6 +21,7 @@ let body = $response.body;
 let headers = $response.headers;
 const isResponse = typeof $response !== "undefined";
 const isJson = headers["Content-Type"] == "application/json";
+
 if(isResponse && isJson){
   let obj = JSON.parse(body);
   if(obj?.Variables){
