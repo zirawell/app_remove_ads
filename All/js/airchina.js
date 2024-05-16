@@ -20,6 +20,7 @@ const url = $request.url;
 const resp = {};
 const header = $request.headers;
 const proc = header["procedure"];
+
 const blockList = [
   "queryOpenScreenAd",
   "hasUpgrade",

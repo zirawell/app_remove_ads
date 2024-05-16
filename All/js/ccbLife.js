@@ -18,12 +18,10 @@ hostname = yunbusiness.ccb.com
 ********************************/
 
 const url = $request.url;
-let body = $response.body;
-let headers = $response.headers;
 const isResponse = typeof $response != "undefined";
-const isJson = headers["Content-Type"] == "application/json";
+let body = $response.body;
 
-if(isResponse && isJson){
+if(isResponse){
   let obj = JSON.parse(body);
   if (obj?.data?.ICON_SKIN_INFO) {
     obj.data.ICON_SKIN_INFO = {};
