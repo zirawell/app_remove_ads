@@ -24,24 +24,24 @@ let body = $response.body;
 if(isResponse){
   let obj = JSON.parse(body);
   if(url.includes("mtop.fliggy.ssif.pattern.home")){
-    const designedStructure = {
-      "s_vertical_homepage_inner_scroll_layout" : [
-        "s_vertical_homepage_search_btns_2022",
-        "s_vertical_homepage_kingkong_2022"
-      ],
-      "root" : [
-        "s_vertical_homepage_inner_scroll_layout",
-        "s_vertical_homepage_cheap_2021_5",
-        "s_vertical_homepage_wonderful_journey_channel",
-        "s_vertical_homepage_cheap_bottom_gap",
-        "s_vertical_homepage_topservice_layout"
-      ],
-      "s_share_guessyoulike_home_gul_tab_layout" : [
-        "s_share_guessyoulike_home_gul_tab_2021"
-      ]
-    };
    if(typeof obj?.data?.hierarchy?.structure !== "undefined") {
-	    obj.data.hierarchy.structure = designedStructure;
+      let designedRoot = [];
+	    let root = obj.data.hierarchy.structure.root;
+      if(root && root.length > 0){
+        for (let r of root) {
+          if (r.includes("s_vertical_homepage_search_btns")||
+              r.includes("s_vertical_homepage_kingkong")||
+              r.includes("s_vertical_homepage_topservice_layout")||
+              r.includes("s_vertical_homepage_cheap")||
+              r.includes("s_vertical_homepage_move")||
+              r.includes("s_vertical_homepage_xingzhong_welcome")||
+              r.includes("s_vertical_homepage_wonderful_journey_channel")||
+            ) {
+            designedRoot.push(r);
+          }
+        }
+      }
+      obj.data.hierarchy.structure.root = designedRoot;
 	 }
   }
   body = JSON.stringify(obj);
