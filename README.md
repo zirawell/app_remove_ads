@@ -25,18 +25,9 @@ For a clean environment without advertisements for iOS Apps.
 
 
 ## 项目结构
-.
-├── Adblock
-│├── App
-│└── Applet
-├── Collection
-│├── filter
-│├── js
-│├── json
-│└── rewrite
 
 - Adblock 下 App 是对于各 App 的规则，Applet 是对于小程序的规则，名称以拼音或英文首字母进行分组
-- Collection 下是所有规则和脚本的合集
+- Collection 下是所有规则和脚本的合集，分为了总合集，App合集，微信小程序合集，支付宝小程序合集，按文件名字可知
 
 ## 特别鸣谢
 
