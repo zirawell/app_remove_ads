@@ -3,7 +3,7 @@ BabyTree Remove Ads - Version 1.0
 Please note that you may need to reinstall app for script to work.
 
 QuantumultX rewrite link:
-^https?:\/\/go\.babytree\.com\/go_pregnancy\/api\/(app_index|cms_column) url script-response-body https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/babytree.js
+^https?:\/\/go\.babytree\.com\/go_pregnancy\/api\/(app_index|cms_column) url script-response-body https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/babytree.js
 
 Please note that the above rewrite link requires open KOP-XIAO's resource parser
 
@@ -11,7 +11,7 @@ Please note that the above rewrite link requires open KOP-XIAO's resource parser
 Surge4, Loon and Shadowrocket configuration:
 
 [Script]
-http-response ^https?:\/\/go\.babytree\.com\/go_pregnancy\/api\/(app_index|cms_column) script-path=https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/babytree.js
+http-response ^https?:\/\/go\.babytree\.com\/go_pregnancy\/api\/(app_index|cms_column) script-path=https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/babytree.js
 
 [MITM]
 hostname = go.babytree.com, api.babytree.com, plough.babytree.com

@@ -3,7 +3,7 @@ Pinduoduo Remove Ads - Version 1.0
 Please note that you may need to reinstall app for script to work.
 
 QuantumultX rewrite link:
-^https?:\/\/api\.pinduoduo\.com\/api\/alexa\/\w+\/hub url script-response-body https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/pdd.js
+^https?:\/\/api\.pinduoduo\.com\/api\/alexa\/\w+\/hub url script-response-body https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/pdd.js
 
 Please note that the above rewrite link requires open KOP-XIAO's resource parser
 
@@ -11,7 +11,7 @@ Please note that the above rewrite link requires open KOP-XIAO's resource parser
 Surge4, Loon and Shadowrocket configuration:
 
 [Script]
-http-response ^https?:\/\/api\.pinduoduo\.com\/api\/alexa\/\w+\/hub script-path=https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/pdd.js
+http-response ^https?:\/\/api\.pinduoduo\.com\/api\/alexa\/\w+\/hub script-path=https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/pdd.js
 
 [MITM]
 hostname = api.pinduoduo.com

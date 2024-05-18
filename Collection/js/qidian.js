@@ -3,7 +3,7 @@ Qidian Remove Ads - Version 1.0
 Please note that you may need to reinstall app for script to work.
 
 QuantumultX rewrite link:
-^https?:\/\/mage(v\d)?\.if\.qidian\.com\/argus\/api\/v\d\/(deeplink\/geturl|client\/getconf|bookshelf\/getHoverAdv|dailyrecommend\/getdailyrecommend|assembly\/toolbar|user\/getaccountpage) url script-response-body https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/qidian.js
+^https?:\/\/mage(v\d)?\.if\.qidian\.com\/argus\/api\/v\d\/(deeplink\/geturl|client\/getconf|bookshelf\/getHoverAdv|dailyrecommend\/getdailyrecommend|assembly\/toolbar|user\/getaccountpage) url script-response-body https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/qidian.js
 
 Please note that the above rewrite link requires open KOP-XIAO's resource parser
 
@@ -11,7 +11,7 @@ Please note that the above rewrite link requires open KOP-XIAO's resource parser
 Surge4, Loon and Shadowrocket configuration:
 
 [Script]
-http-response ^https?:\/\/mage(v\d)?\.if\.qidian\.com\/argus\/api\/v\d\/(deeplink\/geturl|client\/getconf|bookshelf\/getHoverAdv|dailyrecommend\/getdailyrecommend|assembly\/toolbar|user\/getaccountpage) script-path=https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/qidian.js
+http-response ^https?:\/\/mage(v\d)?\.if\.qidian\.com\/argus\/api\/v\d\/(deeplink\/geturl|client\/getconf|bookshelf\/getHoverAdv|dailyrecommend\/getdailyrecommend|assembly\/toolbar|user\/getaccountpage) script-path=https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/qidian.js
 
 [MITM]
 hostname = mage.if.qidian.com, magev*.if.qidian.com

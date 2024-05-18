@@ -3,7 +3,7 @@ Freshippo Remove Ads - Version 1.0
 Please note that you may need to reinstall app for script to work.
 
 QuantumultX rewrite link:
-^https?:\/\/acs(\.|-)m\.(taobao|freshippo)\.com\/gw\/mtop\.wdk\.render\.query(index|my)page url script-response-body https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/freshippo.js
+^https?:\/\/acs(\.|-)m\.(taobao|freshippo)\.com\/gw\/mtop\.wdk\.render\.query(index|my)page url script-response-body https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/freshippo.js
 
 Please note that the above rewrite link requires open KOP-XIAO's resource parser
 
@@ -11,7 +11,7 @@ Please note that the above rewrite link requires open KOP-XIAO's resource parser
 Surge4, Loon and Shadowrocket configuration:
 
 [Script]
-http-response ^https?:\/\/acs(\.|-)m\.(taobao|freshippo)\.com\/gw\/mtop\.wdk\.render\.query(index|my)page script-path=https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/freshippo.js
+http-response ^https?:\/\/acs(\.|-)m\.(taobao|freshippo)\.com\/gw\/mtop\.wdk\.render\.query(index|my)page script-path=https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/freshippo.js
 
 [MITM]
 hostname = acs.m.taobao.com, acs-m.freshippo.com

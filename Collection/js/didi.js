@@ -3,12 +3,12 @@ Sptcc Remove Ads - Version 1.0
 Please note that you may need to reinstall app for script to work.
 
 QuantumultX rewrite link:
-^https?:\/\/ct\.xiaojukeji\.com\/agent\/v\d\/feeds url script-response-body https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/didi.js
-^https?:\/\/freight\.xiaojukeji\.com\/gateway url script-response-body https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/didi.js
-^https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/(m|xp)get url script-response-body https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/didi.js
-^https?:\/\/conf\.diditaxi\.com\.cn\/homepage\/v\d\/(other\/fast|core) url script-response-body https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/didi.js
-^https?:\/\/conf\.diditaxi\.com\.cn\/dynamic\/conf url script-response-body https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/didi.js
-^https?:\/\/common\.diditaxi\.com\.cn\/common\/v\d\/usercenter\/me url script-response-body https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/didi.js
+^https?:\/\/ct\.xiaojukeji\.com\/agent\/v\d\/feeds url script-response-body https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/didi.js
+^https?:\/\/freight\.xiaojukeji\.com\/gateway url script-response-body https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/didi.js
+^https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/(m|xp)get url script-response-body https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/didi.js
+^https?:\/\/conf\.diditaxi\.com\.cn\/homepage\/v\d\/(other\/fast|core) url script-response-body https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/didi.js
+^https?:\/\/conf\.diditaxi\.com\.cn\/dynamic\/conf url script-response-body https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/didi.js
+^https?:\/\/common\.diditaxi\.com\.cn\/common\/v\d\/usercenter\/me url script-response-body https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/didi.js
 
 Please note that the above rewrite link requires open KOP-XIAO's resource parser
 
@@ -16,12 +16,12 @@ Please note that the above rewrite link requires open KOP-XIAO's resource parser
 Surge4, Loon and Shadowrocket configuration:
 
 [Script]
-http-response ^https?:\/\/ct\.xiaojukeji\.com\/agent\/v\d\/feeds script-path=https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/didi.js
-http-response ^https?:\/\/freight\.xiaojukeji\.com\/gateway  script-path=https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/didi.js
-http-response ^https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/(m|xp)get script-path=https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/didi.js
-http-response ^https?:\/\/conf\.diditaxi\.com\.cn\/homepage\/v\d\/(other\/fast|core) script-path=https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/didi.js
-http-response ^https?:\/\/conf\.diditaxi\.com\.cn\/dynamic\/conf script-path=https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/didi.js
-http-response ^https?:\/\/common\.diditaxi\.com\.cn\/common\/v\d\/usercenter\/me script-path=https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/didi.js
+http-response ^https?:\/\/ct\.xiaojukeji\.com\/agent\/v\d\/feeds script-path=https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/didi.js
+http-response ^https?:\/\/freight\.xiaojukeji\.com\/gateway  script-path=https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/didi.js
+http-response ^https?:\/\/res\.xiaojukeji\.com\/resapi\/activity\/(m|xp)get script-path=https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/didi.js
+http-response ^https?:\/\/conf\.diditaxi\.com\.cn\/homepage\/v\d\/(other\/fast|core) script-path=https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/didi.js
+http-response ^https?:\/\/conf\.diditaxi\.com\.cn\/dynamic\/conf script-path=https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/didi.js
+http-response ^https?:\/\/common\.diditaxi\.com\.cn\/common\/v\d\/usercenter\/me script-path=https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/didi.js
 
 [MITM]
 hostname = ct.xiaojukeji.com, freight.xiaojukeji.com, res.xiaojukeji.com, conf.diditaxi.com.cn, common.diditaxi.com.cn

@@ -3,11 +3,11 @@ Keep Remove Ads - Version 1.0
 Please note that you may need to reinstall app for script to work.
 
 QuantumultX rewrite link:
-^https?:\/\/api\.gotokeep\.com\/athena\/v\d\/people\/my$ url script-response-body https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/keep.js
-^https?:\/\/api\.gotokeep\.com\/config\/v\d\/basic url script-response-body https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/keep.js
-^https?:\/\/api\.gotokeep\.com\/homepage\/v\d\/tab url script-response-body https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/keep.js
-^https?:\/\/api\.gotokeep\.com\/nuocha\/course\/v\d/\w+\/preview url script-response-body https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/keep.js
-^https?:\/\/api\.gotokeep\.com\/sportpage\/sport\/v\d\/mysport url script-response-body https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/keep.js
+^https?:\/\/api\.gotokeep\.com\/athena\/v\d\/people\/my$ url script-response-body https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/keep.js
+^https?:\/\/api\.gotokeep\.com\/config\/v\d\/basic url script-response-body https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/keep.js
+^https?:\/\/api\.gotokeep\.com\/homepage\/v\d\/tab url script-response-body https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/keep.js
+^https?:\/\/api\.gotokeep\.com\/nuocha\/course\/v\d/\w+\/preview url script-response-body https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/keep.js
+^https?:\/\/api\.gotokeep\.com\/sportpage\/sport\/v\d\/mysport url script-response-body https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/keep.js
 
 Please note that the above rewrite link requires open KOP-XIAO's resource parser
 
@@ -15,11 +15,11 @@ Please note that the above rewrite link requires open KOP-XIAO's resource parser
 Surge4, Loon and Shadowrocket configuration:
 
 [Script]
-http-response ^https?:\/\/api\.gotokeep\.com\/athena\/v\d\/people\/my$ script-path=https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/keep.js
-http-response ^https?:\/\/api\.gotokeep\.com\/config\/v\d\/basic script-path=https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/keep.js
-http-response ^https?:\/\/api\.gotokeep\.com\/homepage\/v\d\/tab script-path=https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/keep.js
-http-response ^https?:\/\/api\.gotokeep\.com\/nuocha\/course\/v\d/\w+\/preview script-path=https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/keep.js
-http-response ^https?:\/\/api\.gotokeep\.com\/sportpage\/sport\/v\d\/mysport script-path=https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/keep.js
+http-response ^https?:\/\/api\.gotokeep\.com\/athena\/v\d\/people\/my$ script-path=https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/keep.js
+http-response ^https?:\/\/api\.gotokeep\.com\/config\/v\d\/basic script-path=https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/keep.js
+http-response ^https?:\/\/api\.gotokeep\.com\/homepage\/v\d\/tab script-path=https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/keep.js
+http-response ^https?:\/\/api\.gotokeep\.com\/nuocha\/course\/v\d/\w+\/preview script-path=https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/keep.js
+http-response ^https?:\/\/api\.gotokeep\.com\/sportpage\/sport\/v\d\/mysport script-path=https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/keep.js
 
 [MITM]
 hostname = api.gotokeep.com

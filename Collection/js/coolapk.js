@@ -3,9 +3,9 @@ Coolapk Remove Ads - Version 1.0
 Please note that you may need to reinstall app for script to work.
 
 QuantumultX rewrite link:
-^https?:\/\/api\.coolapk\.com\/v\d\/feed\/(detail|replyList)\? url script-response-body https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/coolapk.js
-^https?:\/\/api\.coolapk\.com\/v\d\/main\/(dataList|indexV|init) url script-response-body https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/coolapk.js
-^https?:\/\/api\.coolapk\.com\/v\d\/page\/dataList\? url script-response-body https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/coolapk.js
+^https?:\/\/api\.coolapk\.com\/v\d\/feed\/(detail|replyList)\? url script-response-body https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/coolapk.js
+^https?:\/\/api\.coolapk\.com\/v\d\/main\/(dataList|indexV|init) url script-response-body https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/coolapk.js
+^https?:\/\/api\.coolapk\.com\/v\d\/page\/dataList\? url script-response-body https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/coolapk.js
 
 Please note that the above rewrite link requires open KOP-XIAO's resource parser
 
@@ -13,9 +13,9 @@ Please note that the above rewrite link requires open KOP-XIAO's resource parser
 Surge4, Loon and Shadowrocket configuration:
 
 [Script]
-http-response ^https?:\/\/api\.coolapk\.com\/v\d\/feed\/(detail|replyList)\?  script-path=https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/coolapk.js
-http-response ^https?:\/\/api\.coolapk\.com\/v\d\/main\/(dataList|indexV|init) script-path=https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/coolapk.js
-http-response ^https?:\/\/api\.coolapk\.com\/v\d\/page\/dataList\? script-path=https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/coolapk.js
+http-response ^https?:\/\/api\.coolapk\.com\/v\d\/feed\/(detail|replyList)\?  script-path=https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/coolapk.js
+http-response ^https?:\/\/api\.coolapk\.com\/v\d\/main\/(dataList|indexV|init) script-path=https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/coolapk.js
+http-response ^https?:\/\/api\.coolapk\.com\/v\d\/page\/dataList\? script-path=https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/coolapk.js
 
 [MITM]
 hostname = api.coolapk.com

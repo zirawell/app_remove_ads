@@ -3,9 +3,9 @@ Bilibili Manga Remove Ads - Version 1.0
 Please note that you may need to reinstall app for script to work.
 
 QuantumultX rewrite link:
-^https?:\/\/manga\.bilibili\.com\/twirp\/user\.v\d\.User\/UCenterConf url script-response-body https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/bilibiliManga.js
-^https?:\/\/manga\.bilibili\.com\/twirp\/user\.v\d\.User\/GetInitInfo url script-response-body https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/bilibiliManga.js
-^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Home\/HomeFeed url script-response-body https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/bilibiliManga.js
+^https?:\/\/manga\.bilibili\.com\/twirp\/user\.v\d\.User\/UCenterConf url script-response-body https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/bilibiliManga.js
+^https?:\/\/manga\.bilibili\.com\/twirp\/user\.v\d\.User\/GetInitInfo url script-response-body https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/bilibiliManga.js
+^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Home\/HomeFeed url script-response-body https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/bilibiliManga.js
 
 Please note that the above rewrite link requires open KOP-XIAO's resource parser
 
@@ -13,9 +13,9 @@ Please note that the above rewrite link requires open KOP-XIAO's resource parser
 Surge4, Loon and Shadowrocket configuration:
 
 [Script]
-http-response ^https?:\/\/manga\.bilibili\.com\/twirp\/user\.v\d\.User\/UCenterConf script-path=https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/bilibiliManga.js
-http-response ^https?:\/\/manga\.bilibili\.com\/twirp\/user\.v\d\.User\/GetInitInfo script-path=https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/bilibiliManga.js
-http-response ^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Home\/HomeFeed script-path=https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/bilibiliManga.js
+http-response ^https?:\/\/manga\.bilibili\.com\/twirp\/user\.v\d\.User\/UCenterConf script-path=https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/bilibiliManga.js
+http-response ^https?:\/\/manga\.bilibili\.com\/twirp\/user\.v\d\.User\/GetInitInfo script-path=https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/bilibiliManga.js
+http-response ^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Home\/HomeFeed script-path=https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/bilibiliManga.js
 
 [MITM]
 hostname = manga.bilibili.com

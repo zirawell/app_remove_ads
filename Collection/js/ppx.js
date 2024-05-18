@@ -3,8 +3,8 @@ Pipix Remove Ads - Version 1.0
 Please note that you may need to reinstall app for script to work.
 
 QuantumultX rewrite link:
-^https?:\/\/.+\.pipix\.com\/bds\/feed\/channel_list\/ url script-response-body https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/ppx.js
-^https?:\/\/.+\.pipix\.com\/bds\/user\/check_in\/ url script-response-body https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/ppx.js
+^https?:\/\/.+\.pipix\.com\/bds\/feed\/channel_list\/ url script-response-body https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/ppx.js
+^https?:\/\/.+\.pipix\.com\/bds\/user\/check_in\/ url script-response-body https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/ppx.js
 
 Please note that the above rewrite link requires open KOP-XIAO's resource parser
 
@@ -12,8 +12,8 @@ Please note that the above rewrite link requires open KOP-XIAO's resource parser
 Surge4, Loon and Shadowrocket configuration:
 
 [Script]
-http-response ^https?:\/\/.+\.pipix\.com\/bds\/feed\/channel_list\/ script-path=https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/ppx.js
-http-response ^https?:\/\/.+\.pipix\.com\/bds\/user\/check_in\/ script-path=https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/ppx.js
+http-response ^https?:\/\/.+\.pipix\.com\/bds\/feed\/channel_list\/ script-path=https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/ppx.js
+http-response ^https?:\/\/.+\.pipix\.com\/bds\/user\/check_in\/ script-path=https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/ppx.js
 
 [MITM]
 hostname = *.pipix.com
