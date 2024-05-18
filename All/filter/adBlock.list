@@ -91,7 +91,6 @@ host, dpmtpush.dianping.com, reject
 host-suffix, lx.meituan.net, reject
 host-suffix, sankuai.com, reject
 host-suffix, api-unionid.meituan.com, reject
-host-suffix, s3plus.meituan.net, reject
 host-suffix, ddplus.meituan.net, reject
 host-suffix, mars.meituan.com, reject
 ip-cidr, 101.32.16.204/32, reject
