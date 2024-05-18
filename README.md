@@ -1,9 +1,11 @@
-# app_remove_ads
-For a no Ads world for iOS
+# Ad-Cleaner
+For a clean environment without advertisements for iOS Apps.
 
 本项目旨在建立一个没有广告环境的清爽iOS环境;
 
-**项目中所有规则仅适用于QuanX**
+**目前，该项目中所有规则仅适用于QuanX**
+
+将来会集成其他环境，将使用Surgio生成相应规则
 
 本项目最初是我自己对于blackmatrix的规则的一些补充，增加了自己常用的App去广告规则。
 
@@ -22,6 +24,19 @@ For a no Ads world for iOS
 - 重写规则：买单吧/rewrite/creditCardBankComm.conf
 
 
+## 项目结构
+.
+├── Adblock
+│├── App
+│└── Applet
+├── Collection
+│├── filter
+│├── js
+│├── json
+│└── rewrite
+
+- Adblock 下 App 是对于各 App 的规则，Applet 是对于小程序的规则，名称以拼音或英文首字母进行分组
+- Collection 下是所有规则和脚本的合集
 
 ## 特别鸣谢
 
