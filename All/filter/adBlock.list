@@ -28,7 +28,6 @@ host-suffix, pmbmpush.bosc.cn, reject
 host-suffix, pmbservice.bosc.cn, reject
 host-suffix, pmbservice2.bosc.cn, reject
 # > 阿里系通用规则 - ALI_GENERAL
-host, ossgw.alicdn.com, reject
 host, hudong.alicdn.com, reject
 host, o2o-ad-log-gateway.alibaba.com, reject
 host-suffix, mpush-api.aliyun.com, reject
