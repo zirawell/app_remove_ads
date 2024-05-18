@@ -73,8 +73,6 @@ host, sdkconfig.ad.xiaomi.com, reject
 host, flowplus.meituan.net, reject
 host, lx0.meituan.com, reject
 host, hlx.meituan.com, reject
-ip-cidr, 111.230.0.200/32, reject
-ip-cidr, 103.63.160.80/32, reject
 host-suffix, analytics.meituan.net, reject
 host-suffix, meituan.xn, reject
 host-suffix, meituan.yoga, reject
