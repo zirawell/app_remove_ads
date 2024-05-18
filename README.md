@@ -32,6 +32,7 @@ For a no Ads world for iOS
 - [@NobyDa](https://github.com/NobyDa)
 - [@Orz-3](https://github.com/Orz-3)
 - [@fmz200](https://github.com/fmz200)
+- [@RuCu6](https://github.com/RuCu6)
 
 ### 访问量统计
 

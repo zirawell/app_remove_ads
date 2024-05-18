@@ -1,4 +1,4 @@
-# > 通用规则<微信小程序> - WECHATWAP
+# > 通用规则<微信小程序> - WechatAppletGeneralFilter
 host, wxsnsdy.wxs.qq.com, reject
 host, wxsmsdy.video.qq.com, reject
 host, wxsnsdythumb.wxs.qq.com, reject

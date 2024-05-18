@@ -1,0 +1,169 @@
+# > U净 - UJING
+host-suffix, ads.zhinengxiyifang.cn, reject
+# > 阳光惠生活 - CEBBANK
+host-keyword, talk.bz.getui.com, reject
+# > 发现精彩 - 95508
+host, union.chinalifeonline.com.cn, reject
+# > 招商银行 - CMBCHINA
+host, mbads.paas.cmbchina.com, reject
+host, yl.zh.cmbchina.com, reject
+# > 中国电信 - 189
+host,ad.21cn.com, reject
+host,ad.k.21cn.com, reject
+host,admarket.21cn.com, reject
+host,adshows.21cn.com, reject
+# > 支付宝 - ALIPAY
+host-suffix, mdap.alipay.com, reject
+host-suffix, loggw.alipay.com.cn, reject
+# > 同程旅行 - 17U
+host, vstlog.17usoft.com, reject
+# > trip - TRIP
+host-suffix, graph.facebook.com, reject
+host-suffix, app.adjust.net.in, reject
+host-suffix, app.adjust.world, reject
+host-suffix, m.ctripins.com, reject
+# > 上海银行 - BOSC
+host-suffix, pmbanalysis.bosc.cn, reject
+host-suffix, pmbmpush.bosc.cn, reject
+host-suffix, pmbservice.bosc.cn, reject
+host-suffix, pmbservice2.bosc.cn, reject
+# > 阿里系通用规则 - ALI_GENERAL
+host, hudong.alicdn.com, reject
+host, o2o-ad-log-gateway.alibaba.com, reject
+host-suffix, mpush-api.aliyun.com, reject
+# > 番茄小说 - FANQIE
+host, abtest3-misc.zijieapi.com, reject
+host, bsync3-normal.zijieapi.com, reject
+host, content-open.douyin.com, reject
+host, dig.bdurl.net, reject
+host, dig.zjurl.cn, reject
+host, effect.snssdk.com, reject
+host, feedback-c.zijieapi.com, reject
+host, ichannel.snssdk.com, reject
+host, is.snssdk.com, reject
+host, lf-webcast-gr-sourcecdn.bytegecko.com, reject
+host, lf3-reading.fqnovelstatic.com, reject
+host, log5-applog.fqnovel.com, reject
+host, mon11-misc.fqnovel.com, reject
+host, mssdk.volces.com, reject
+host, mssdk.zijieapi.com, reject
+host, polaris.zijieapi.com, reject
+host, reading.snssdk.com, reject
+host, rtlog5-applog.fqnovel.com, reject
+host, timon.zijieapi.com, reject
+host, toutiao-frontier.snssdk.com, reject
+host, ug.snssdk.com, reject
+host, vcs.zijieapi.com, reject
+host, webcast-open.douyin.com, reject
+host, zlink.ugsdk.cn, reject
+# > 航旅纵横 - UMETRIP
+host, analytics.umetrip.com, reject
+host, sensors.umetrip.com.cn, reject
+# > 盒马 - FRESHIPPO
+ip-cidr, 59.82.120.0/24, reject
+# > 虎牙直播 - HUYA
+host, live-ads.huya.com, reject
+# > 杭州市民 - 96225
+host, ads.iconntech.com, reject
+# > 买单吧 - BANKCOMM
+host-suffix, track.bankcomm.com, reject
+# > 米家 - MIHOME
+host, sdkconfig.ad.xiaomi.com, reject
+# > 美团 - MEITUAN
+host, flowplus.meituan.net, reject
+host, lx0.meituan.com, reject
+host, hlx.meituan.com, reject
+ip-cidr, 111.230.0.200/32, reject
+ip-cidr, 103.63.160.80/32, reject
+host-suffix, analytics.meituan.net, reject
+host-suffix, meituan.xn, reject
+host-suffix, meituan.yoga, reject
+host-suffix, meituangov.cn, reject
+host-suffix, report.meituan.com, reject
+host-suffix, wmlog.meituan.com, reject
+host-suffix, ad.e.waimai.sankuai.com, reject
+host-suffix, mads.meituan.com, reject
+host-suffix, dreport.meituan.net, reject
+host-suffix, d.meituan.net, reject
+# > 马蜂窝 - MAFENGWO
+host-suffix, advert.mafengwo.cn, reject
+# > 盯盯拍 - DDPAI
+host, pglstatp-toutiao.com, reject
+# > 大众点评 - DIANPING
+host, dpmtpush.dianping.com, reject
+host-suffix, lx.meituan.net, reject
+host-suffix, sankuai.com, reject
+host-suffix, api-unionid.meituan.com, reject
+host-suffix, ddplus.meituan.net, reject
+host-suffix, mars.meituan.com, reject
+ip-cidr, 101.32.16.204/32, reject
+ip-cidr, 203.76.217.244/32, reject
+ip-cidr, 119.29.126.137/32, reject
+# > 趣兜风 - QDF
+host, m-adnet.dutils.com, reject
+host, m-adnet.hiaiabc.com, reject
+host, g-adnet.dutils.com, reject
+host, g-adnet.hiaiabc.com, reject
+host, st7niu.aicarmap.com, reject
+# > 亲宝宝 - QBB
+host-suffix, apilog.qbb6.com, reject
+# > 小鹏汽车 - XPENG
+host, api-adservices.apple.com, reject
+host, api.weibo.com, reject
+# > 哔哩哔哩(国际版) - BILIBILI(WHITE)
+host, ptom.caohua.com, reject
+host, tracking.leiting.com, reject
+host, ads.games.laohu.com, reject
+host, shark-tracer.netease.com, reject
+# > 宝宝树 - BABYTREE
+host, m.meitun.com, reject
+host, adx.babytree.com, reject 
+host, adx-backend.babytree.com, reject 
+host, ads.babytree.com, reject 
+host, bbtads.babytree.com, reject 
+host, tracking.babytree.com, reject 
+host, mobads-pre-config.cdn.bcebos.com, reject 
+# > 通用过滤 - GENERAL
+host-suffix, admobile.top, reject
+host-suffix, pubads.g.doubleclick.net, reject
+host-suffix, pagead2.googleadservices.com, reject
+# > 广告联盟 - ADUNION
+host-suffix, miaozhen.com, reject
+host-keyword, -ad-sign.byteimg.com, reject
+host-keyword, -tos.pstatp.com, reject
+host-keyword, asiad.byteactivity, reject
+host-keyword, pangolin-sdk-toutiao, reject
+host-keyword, pangolin.snssdk.com, reject
+host-keyword, pglstatp-toutiao, reject
+host-keyword, video-cn.snssdk.com, reject
+# > lofter - LOFTER
+host, ad.lofter.com, reject
+# > 一号店 - YHD
+host-suffix, api.dsp.yhd.com, reject
+host-suffix, tracker.yhd.com, reject
+# > 云闪付 - 95516
+host, ads.95516.com, reject
+host, analytics.95516.com, reject
+host, tysdk.95516.com, reject
+host, cm-10-138.getui.com, reject
+host, c-hzgt2.getui.com, reject
+host, sdk.open.talk.getui.net, reject
+host, sdk-conf.getui.com, reject
+host, switch.cup.com.cn, reject
+host, ads.cup.com.cn, reject
+# > 51cto - 51CTO
+host, smartop-sdkapi.jiguang.cn, reject
+host, smartop-sdkapi-ipv6.jiguang.cn, reject
+# > 12123 - 12123
+host-suffix, v3.fstats.xyz, reject
+host-suffix, wss.haoyundmn.com, reject
+host-suffix, new.xiongzhangad.com, reject
+host-suffix, alexametrics.com, reject
+host-keyword, in-page-push, reject
+# > 12306 - 12306
+host, ad.12306.cn, reject
+# > 58同城 - 58
+host, track.58.com, reject
+host, tracklog.58.com, reject
+# > 360儿童卫士 - 360
+host, ad.life.360.cn, reject

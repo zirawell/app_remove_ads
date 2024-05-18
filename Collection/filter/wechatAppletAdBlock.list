@@ -1,0 +1,12 @@
+# > 收钱吧<微信小程序> - SHOUQIANBA
+host, ads-shopping.shouqianba.com, reject
+# > 闪送<微信小程序> - SHANSONG
+host, ads.ishansong.com, reject
+# > 丰巢<微信小程序> - FCBOX
+host, dsp.fcbox.com, reject
+# > 猫眼电影<微信小程序> - MAOYAN
+host, ad.maoyan.com, reject
+# > 通用规则<微信小程序> - WechatAppletGeneralFilter
+host, wxsnsdy.wxs.qq.com, reject
+host, wxsmsdy.video.qq.com, reject
+host, wxsnsdythumb.wxs.qq.com, reject
