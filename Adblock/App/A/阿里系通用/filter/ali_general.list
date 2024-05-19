@@ -2,3 +2,4 @@
 host, hudong.alicdn.com, reject
 host, o2o-ad-log-gateway.alibaba.com, reject
 host-suffix, mpush-api.aliyun.com, reject
+ip-cidr, 59.82.120.0/24, reject

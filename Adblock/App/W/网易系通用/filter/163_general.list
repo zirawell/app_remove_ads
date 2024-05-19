@@ -1,0 +1,3 @@
+# > 网易系通用 - 163GENERAL
+host-suffix, analytics.163.com, reject
+host-suffix, httpdns.n.netease.com, reject

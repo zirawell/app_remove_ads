@@ -1,5 +1,8 @@
 # > U净 - UJING
 host-suffix, ads.zhinengxiyifang.cn, reject
+# > udnNews - UDNNEWS
+host-suffix, pubads.g.doubleclick.net, reject
+host-suffix, pagead2.googleadservices.com, reject
 # > 阳光惠生活 - CEBBANK
 host-keyword, talk.bz.getui.com, reject
 # > 发现精彩 - 95508
@@ -31,6 +34,7 @@ host-suffix, pmbservice2.bosc.cn, reject
 host, hudong.alicdn.com, reject
 host, o2o-ad-log-gateway.alibaba.com, reject
 host-suffix, mpush-api.aliyun.com, reject
+ip-cidr, 59.82.120.0/24, reject
 # > 番茄小说 - FANQIE
 host, abtest3-misc.zijieapi.com, reject
 host, bsync3-normal.zijieapi.com, reject
@@ -59,8 +63,6 @@ host, zlink.ugsdk.cn, reject
 # > 航旅纵横 - UMETRIP
 host, analytics.umetrip.com, reject
 host, sensors.umetrip.com.cn, reject
-# > 盒马 - FRESHIPPO
-ip-cidr, 59.82.120.0/24, reject
 # > 虎牙直播 - HUYA
 host, live-ads.huya.com, reject
 # > 杭州市民 - 96225
@@ -162,3 +164,9 @@ host, track.58.com, reject
 host, tracklog.58.com, reject
 # > 360儿童卫士 - 360
 host, ad.life.360.cn, reject
+# > 网易云音乐 - 163MUSIC
+host-suffix, httpdns.music.163.com, reject
+host-suffix, iadmusicmatvideo.music.126.net, reject
+# > 网易系通用 - 163GENERAL
+host-suffix, analytics.163.com, reject
+host-suffix, httpdns.n.netease.com, reject
