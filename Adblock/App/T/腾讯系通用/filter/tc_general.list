@@ -1,0 +1,3 @@
+# > 腾讯系通用 - TCGENERAL
+host-suffix, btrace.qq.com, reject
+host-suffix, beacon.qq.com, reject
