@@ -50,13 +50,17 @@ if(obj && obj.data){
     if(obj?.data){
       obj.data.had_follow_offcial=true;
     }
-  //首页去除商品推荐
+  //首页去除商品推荐和视频内容
   }else if(url.includes("/HomeFeed")){
     if(obj?.data?.feeds?.length > 0){
       obj.data.feeds = obj.data.feeds.filter(function(feed) {
-         if(!feed.image.includes("/mall/")){
-          return feed;
-        }
+          //去除商品推荐
+          if(!feed.image.includes("/mall/")){
+            return feed;
+          //去除视频内容
+          }else if(feed.inline_pv_card.bvid == ""){
+            return feed;
+          }
       });
     }
   }
