@@ -22,8 +22,7 @@ let body = $response.body;
 const isResponse = typeof $response !== "undefined";
 if(isResponse){
   let obj = JSON.parse(body);
-  let result = obj.resultbody;
-  result.adsTabFeeds=[];
+  obj.resultbody.adsTabFeeds=[];
   body = JSON.stringify(obj);
   $done({ body });
 }
