@@ -77,6 +77,7 @@ host-suffix, track.bankcomm.com, reject
 # > 米家 - MIHOME
 host, sdkconfig.ad.xiaomi.com, reject
 # > 美团 - MEITUAN
+ip-cidr, 103.37.155.60/32, reject
 host, flowplus.meituan.net, reject
 host, lx0.meituan.com, reject
 host, hlx.meituan.com, reject
