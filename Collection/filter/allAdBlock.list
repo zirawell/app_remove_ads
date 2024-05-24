@@ -33,6 +33,8 @@ host-suffix, pmbanalysis.bosc.cn, reject
 host-suffix, pmbmpush.bosc.cn, reject
 host-suffix, pmbservice.bosc.cn, reject
 host-suffix, pmbservice2.bosc.cn, reject
+# > 阿里云盘 - ADRIVE
+ip-cidr, 203.107.1.0/24, reject
 # > 阿里系通用规则 - ALI_GENERAL
 host, hudong.alicdn.com, reject
 host, o2o-ad-log-gateway.alibaba.com, reject
