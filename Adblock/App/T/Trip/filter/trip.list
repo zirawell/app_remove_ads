@@ -3,3 +3,6 @@ host-suffix, graph.facebook.com, reject
 host-suffix, app.adjust.net.in, reject
 host-suffix, app.adjust.world, reject
 host-suffix, m.ctripins.com, reject
+host, firebaseinstallations.googleapis.com, reject
+host, ocsp.pki.goog, reject
+host, app-analytics-services.com, reject

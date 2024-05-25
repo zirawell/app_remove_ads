@@ -25,6 +25,9 @@ host-suffix, graph.facebook.com, reject
 host-suffix, app.adjust.net.in, reject
 host-suffix, app.adjust.world, reject
 host-suffix, m.ctripins.com, reject
+host, firebaseinstallations.googleapis.com, reject
+host, ocsp.pki.goog, reject
+host, app-analytics-services.com, reject
 # > 腾讯系通用 - TCGENERAL
 host-suffix, btrace.qq.com, reject
 host-suffix, beacon.qq.com, reject
