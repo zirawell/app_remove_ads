@@ -6,6 +6,8 @@ host, ads.ishansong.com, reject
 host, dsp.fcbox.com, reject
 # > 猫眼电影<微信小程序> - MAOYAN
 host, ad.maoyan.com, reject
+# > 全球泊<微信公众号> - QUANQIUBO
+host, api.zysdsk.cn, reject
 # > 小电充电<微信小程序> - XIAODIAN
 host, smarket.dian.so, reject
 host, file.dian.so, reject

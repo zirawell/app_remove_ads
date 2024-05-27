@@ -1,5 +1,6 @@
 # > 大众点评 - DIANPING
 host, dpmtpush.dianping.com, reject
+host, dynamicf.sankuai.com, reject
 host-suffix, lx.meituan.net, reject
 host-suffix, mars.meituan.com, reject
 ip-cidr, 101.32.16.204/32, reject
