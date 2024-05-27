@@ -188,6 +188,11 @@ host, ads.ishansong.com, reject
 host, dsp.fcbox.com, reject
 # > 猫眼电影<微信小程序> - MAOYAN
 host, ad.maoyan.com, reject
+# > 小电充电<微信小程序> - XIAODIAN
+host, smarket.dian.so, reject
+host, file.dian.so, reject
+# > 小兔充充<微信小程序> - XIAOTUCC
+host, ad.xiaotucc.com, reject
 # > 通用规则<微信小程序> - WechatAppletGeneralFilter
 host, wxsnsdy.wxs.qq.com, reject
 host, wxsmsdy.video.qq.com, reject
