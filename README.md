@@ -39,6 +39,7 @@ For a clean environment without advertisements for iOS Apps.
 - [@Orz-3](https://github.com/Orz-3)
 - [@fmz200](https://github.com/fmz200)
 - [@RuCu6](https://github.com/RuCu6)
+- [@Sliverkiss](https://github.com/Sliverkiss)
 
 ### 访问量统计
 

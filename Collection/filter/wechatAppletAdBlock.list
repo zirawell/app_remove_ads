@@ -17,3 +17,6 @@ host, ad.xiaotucc.com, reject
 host, wxsnsdy.wxs.qq.com, reject
 host, wxsmsdy.video.qq.com, reject
 host, wxsnsdythumb.wxs.qq.com, reject
+# > PP停车<微信小程序> - PPPARK
+host, ad-files.4pyun.com, reject
+host, ad-api.4pyun.com, reject
