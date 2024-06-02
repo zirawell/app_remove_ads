@@ -36,8 +36,10 @@ if(isResponse){
     if(obj?.data?.user_center_slide_show_pic_2022?.length > 0){
       obj.data.user_center_slide_show_pic_2022=[];
     }
+    if(obj?.data?.home_mid_banner_multi_202208?.length > 0){
+      obj.data.home_mid_banner_multi_202208=[];
+    }
   }
-  
   body = JSON.stringify(obj);
   $done({ body });
 }else{
