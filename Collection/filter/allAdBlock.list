@@ -146,6 +146,8 @@ host-keyword, pangolin-sdk-toutiao, reject
 host-keyword, pangolin.snssdk.com, reject
 host-keyword, pglstatp-toutiao, reject
 host-keyword, video-cn.snssdk.com, reject
+# > keep - KEEP
+host, hc-ssp.sm.cn, reject
 # > lofter - LOFTER
 host, ad.lofter.com, reject
 # > 一号店 - YHD
