@@ -150,6 +150,8 @@ host-keyword, video-cn.snssdk.com, reject
 host, hc-ssp.sm.cn, reject
 # > lofter - LOFTER
 host, ad.lofter.com, reject
+# > 银盛通 - YSEPAY
+host, ad.ysepay.com, reject
 # > 一号店 - YHD
 host-suffix, api.dsp.yhd.com, reject
 host-suffix, tracker.yhd.com, reject
