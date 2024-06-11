@@ -4,6 +4,8 @@ host, ads-shopping.shouqianba.com, reject
 host, ads.ishansong.com, reject
 # > 丰巢<微信小程序> - FCBOX
 host, dsp.fcbox.com, reject
+# > 花小猪打车<微信小程序> - HONGYIBO
+host, api.hongyibo.com.cn, reject
 # > 猫眼电影<微信小程序> - MAOYAN
 host, ad.maoyan.com, reject
 # > 全球泊<微信公众号> - QUANQIUBO
