@@ -7,6 +7,8 @@ host-suffix, pagead2.googleadservices.com, reject
 host-keyword, talk.bz.getui.com, reject
 # > 发现精彩 - 95508
 host, union.chinalifeonline.com.cn, reject
+# > 最右 - IZUIYOU
+host, adapi.izuiyou.com, reject
 # > 招商银行 - CMBCHINA
 host, mbads.paas.cmbchina.com, reject
 host, yl.zh.cmbchina.com, reject
