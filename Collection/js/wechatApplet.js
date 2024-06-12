@@ -22,6 +22,9 @@ if(obj && obj.data){
     }else if(url.includes("mall/main")){
       delete obj.data;
     }
+  //全家微会员
+  }else if(url.includes("minifm.maxxipoint.com")){
+    delete obj.data.topBanner;
   }
 
   body = JSON.stringify(obj);
