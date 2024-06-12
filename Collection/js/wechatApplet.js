@@ -37,6 +37,10 @@ if(obj && obj.data){
       delete item.bubble; 
       delete item.figure; 
     });
+  //CoCo点单+
+  }else if(url.includes("coco-com.e.verystar.net")){
+    delete obj.data.top_background_url;
+    delete obj.data.bottom_banner_list;
   }
 
   body = JSON.stringify(obj);
