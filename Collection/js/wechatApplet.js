@@ -25,6 +25,10 @@ if(obj && obj.data){
   //全家微会员
   }else if(url.includes("minifm.maxxipoint.com")){
     delete obj.data.topBanner;
+  //罗森点点
+  }else if(url.includes("lawsonapi.yorentown.com")){
+    delete obj.data.homeButtonList;
+    delete obj.data.dysmorphismPictureList;
   }
 
   body = JSON.stringify(obj);
