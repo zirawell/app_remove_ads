@@ -29,6 +29,14 @@ if(obj && obj.data){
   }else if(url.includes("lawsonapi.yorentown.com")){
     delete obj.data.homeButtonList;
     delete obj.data.dysmorphismPictureList;
+  //茶颜悦色
+  }else if(url.includes("miniapp.sexytea2013.com")){
+    delete obj.data.INDEX_SLOT_01;
+    delete obj.data.INDEX_SLOT_02;
+    obj.data?.INDEX_TOP_BANNER?.contents?.forEach(item => {
+      delete item.bubble; 
+      delete item.figure; 
+    });
   }
 
   body = JSON.stringify(obj);
