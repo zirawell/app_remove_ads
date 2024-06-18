@@ -202,6 +202,8 @@ host-suffix, httpdns.n.netease.com, reject
 host, ads-shopping.shouqianba.com, reject
 # > 闪送<微信小程序> - SHANSONG
 host, ads.ishansong.com, reject
+# > 上海电信<微信小程序> - SH189
+host, bigdata-behaviordata.189.cn, reject
 # > 丰巢<微信小程序> - FCBOX
 host, dsp.fcbox.com, reject
 # > 花小猪打车<微信小程序> - HONGYIBO
