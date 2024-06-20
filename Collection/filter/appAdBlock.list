@@ -111,6 +111,9 @@ host-suffix, d.meituan.net, reject
 host-suffix, advert.mafengwo.cn, reject
 # > 盯盯拍 - DDPAI
 host, pglstatp-toutiao.com, reject
+# > 滴滴出行 - DIDITAXI
+IP-CIDR, 123.207.209.39/32, REJECT
+IP-CIDR, 123.207.209.60/32, REJECT
 # > 大众点评 - DIANPING
 host, dpmtpush.dianping.com, reject
 host, dynamicf.sankuai.com, reject
