@@ -1,5 +1,6 @@
 # > trip - TRIP
 host-suffix, graph.facebook.com, reject
+host-suffix, fbcdn.net, reject
 host-suffix, app.adjust.net.in, reject
 host-suffix, app.adjust.world, reject
 host-suffix, m.ctripins.com, reject
