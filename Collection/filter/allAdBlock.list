@@ -344,7 +344,7 @@ host, tracking.babytree.com, reject
 host, mobads-pre-config.cdn.bcebos.com, reject 
 # > 百词斩 - BAICIZHAN
 host, advertise.baicizhan.com, reject
-host, advertise.baicizhan.org, rejectct 
+host, advertise.baicizhan.org, reject
 # > 哔哩哔哩 - BILIBILI(PINK)
 host-keyword, api.sobot.com, reject
 host-suffix, cm.ad.bilibili.com, reject
