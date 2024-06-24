@@ -156,7 +156,6 @@ host-suffix, d.meituan.net, reject
 # > 马蜂窝 - MAFENGWO
 host-suffix, advert.mafengwo.cn, reject
 # > 建设银行 - CCB
-host, imageadv.ccb.com, reject
 # > 盯盯拍 - DDPAI
 host, pglstatp-toutiao.com, reject
 # > 滴滴出行 - DIDITAXI
