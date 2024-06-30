@@ -8,5 +8,6 @@ host, ocsp.pki.goog, reject
 host, app-analytics-services.com, reject
 host, cpush.trip.com, reject
 host, tcpgateway-sgp-trip.trip.com, reject
+host, overseamobileap.ctrip.com, reject
 ip-cidr, 103.143.160.209/32, reject
 ip-cidr, 210.13.85.204/32, reject
