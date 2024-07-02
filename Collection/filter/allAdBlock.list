@@ -95,9 +95,11 @@ IP-CIDR, 124.192.153.42/32, reject
 # > 阿里云盘 - ADRIVE
 ip-cidr, 203.107.1.0/24, reject
 # > 阿里系通用规则 - ALI_GENERAL
-host, hudong.alicdn.com, reject
 host, o2o-ad-log-gateway.alibaba.com, reject
+host, ossgw.alicdn.com, reject
+host, hudong.alicdn.com, reject
 host-suffix, mpush-api.aliyun.com, reject
+host-suffix, ut.taobao.com, reject
 ip-cidr, 59.82.120.0/24, reject
 ip-cidr, 59.82.122.0/24, reject
 ip-cidr, 59.82.121.225/32, reject
@@ -401,6 +403,7 @@ host, ad.lofter.com, reject
 host, ad.ysepay.com, reject
 # > 优酷 - YOUKU
 host-suffix, ad.youku.com, reject
+host, ems.youku.com, reject
 # > 一号店 - YHD
 host-suffix, api.dsp.yhd.com, reject
 host-suffix, tracker.yhd.com, reject

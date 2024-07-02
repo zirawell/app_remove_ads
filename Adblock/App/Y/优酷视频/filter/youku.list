@@ -1,2 +1,3 @@
 # > 优酷 - YOUKU
 host-suffix, ad.youku.com, reject
+host, ems.youku.com, reject
