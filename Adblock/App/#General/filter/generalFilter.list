@@ -1,10 +1,27 @@
 # > 通用过滤 - GENERAL
+host, gdfp.gifshow.com, reject
+host, open.e.kuaishou.com, reject
+host-suffix, adukwai.com, reject
+host-suffix, miaozhen.com, reject
+host, log.umsns.com, reject
+host, cnlogs.umeng.com, reject
+host, errlog.umeng.com, reject
+host, ucc.umeng.com, reject
+host, ulogs.umeng.com, reject
+host, utoken.umeng.com, reject
+host, sdk.tianmu.mobi, reject
+host, adsmind.ugdtimg.com, reject
+host, i.gtimg.cn, reject
+host, ios.bugly.qq.com, reject
+host, mazu.m.qq.com, reject
+host, mi.gdt.qq.com, reject
+host, pgdt.ugdtimg.com, reject
+host, sdk.e.qq.com, reject
+host, win.gdt.qq.com, reject
+host-suffix, jiguang.cn, reject
 host-suffix, admobile.top, reject
 host-suffix, pubads.g.doubleclick.net, reject
 host-suffix, pagead2.googleadservices.com, reject
-host-suffix, log.umsns.com, reject
-# > 广告联盟 - ADUNION
-host-suffix, miaozhen.com, reject
 host-keyword, -ad-sign.byteimg.com, reject
 host-keyword, -tos.pstatp.com, reject
 host-keyword, asiad.byteactivity, reject

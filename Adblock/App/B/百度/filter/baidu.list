@@ -144,5 +144,7 @@ host-suffix, hmma.baidu.com, reject
 host-suffix, mobads.baidu.com, reject
 host-suffix, mobads-logs.baidu.com, reject
 host-suffix, nsclick.baidu.com, reject
+host-suffix, union.baidu.cn, reject
+host-suffix, union.baidu.com, reject
 host, hm.baidu.com, reject
 host, hmma.baidu.com, reject
